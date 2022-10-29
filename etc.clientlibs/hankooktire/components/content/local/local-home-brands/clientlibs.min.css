@@ -1,0 +1,41 @@
+.lhb{padding-top:6rem;overflow:hidden}
+.lhb .title{font-size:2.8rem;font-weight:600;margin-bottom:1.5rem;text-align:center}
+.lhb .swiper-button-prev,.lhb .swiper-button-next{display:none}
+.lhb__product{height:40rem}
+.lhb__bg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}
+.lhb__logo{margin-bottom:2rem}
+@media all and (max-width:1024px){.lhb__logo{max-width:42rem;display:block;margin:0 auto 2rem}
+}
+.lhb__container{position:relative}
+.lhb__container img{width:100%}
+.lhb__container .content{position:absolute;width:100%;left:50%;bottom:5.2rem;transform:translate(-50%,0);text-align:center}
+.lhb__container .swiper-pagination{bottom:2.8rem;z-index:9}
+.lhb__subswiper{padding:2rem 0;margin:0 auto}
+.lhb .tire-item{width:28rem}
+.lhb__item{width:28rem}
+.lhb__item a{display:block}
+.lhb__item a .img-wrap{position:relative;width:100%}
+.lhb__item a .img-wrap .img-default{position:relative;transition:opacity .2s}
+.lhb__item a .img-wrap .img-hover{position:absolute;top:0;left:0;opacity:0;transition:opacity .2s}
+@media(hover:hover){.lhb__item a:hover .img-default,.lhb__item a:focus .img-default{opacity:0}
+.lhb__item a:hover .img-hover,.lhb__item a:focus .img-hover{opacity:1}
+}
+.lhb__item .content{padding-top:1.2rem}
+.lhb__item .content strong{display:block;font-weight:500;font-size:1.8rem}
+.lhb__item .content strong em{color:#957100}
+.lhb__item .content .desc{display:inline-block;margin-top:1rem;color:#666;font-size:1.2rem}
+.lhb__item+.local-our-brand__item{margin-left:1.6rem}
+.lhb .video-wrap{position:static}
+@media(min-width:64.0625em){.lhb{padding-top:8.8rem}
+.lhb .title{font-size:4.8rem}
+.lhb .swiper-button-prev,.lhb .swiper-button-next{display:block}
+.lhb__product{height:72rem}
+.lhb__container .content{width:auto}
+.lhb__subswiper{max-width:192rem;padding:3.6rem 0;margin:0 -0.7rem}
+.lhb__item{width:auto}
+.lhb__item .content .desc{font-size:1.4rem}
+}
+html[dir=rtl] .swiper-button-next{right:unset;left:4rem}
+html[dir=rtl] .swiper-button-next::after{transform:translate(-50%,-50%) scaleX(-1)}
+html[dir=rtl] .swiper-button-prev{right:4rem;left:unset}
+html[dir=rtl] .swiper-button-prev::after{transform:translate(-50%,-50%) scaleX(-1)}

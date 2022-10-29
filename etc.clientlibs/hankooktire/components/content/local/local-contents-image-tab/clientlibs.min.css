@@ -1,0 +1,25 @@
+.lcit .tab-content-wrap.no-top-content .tab-content{margin-top:unset}
+.lcit .tab-wrap{margin:8rem 0 0 0}
+.lcit .tab-wrap::-webkit-scrollbar{width:0;height:0}
+.lcit .tab-wrap .tab-list{overflow-x:auto;display:flex;flex-wrap:nowrap}
+.lcit .tab-wrap .tab-list li{flex:0 0 auto;cursor:pointer;margin-right:2.8rem;color:#b6b6b6}
+.lcit .tab-wrap .tab-list li.active{color:#000;border-bottom:1px solid;pointer-events:none}
+.lcit p.font_body_2_main{margin-top:2rem}
+.lcit p.font_body_1{margin-top:4rem}
+.lcit .tab-content{display:none;margin-top:3.2rem}
+.lcit .tab-content.active{display:block}
+.lcit .tab-content .img-wrap{padding-top:51.302%;position:relative}
+.lcit .tab-content .img-wrap img,.lcit .tab-content .img-wrap video{position:absolute;width:100%;height:100%;left:0;top:0;object-fit:cover}
+.lcit .tab-content .text-wrap{margin:0 auto;max-width:93.6rem}
+.lcit .tab-content .font_contents_title_2{margin-top:4.8rem}
+.lcit .tab-content .font_body_2{margin-top:2.4rem}
+@media all and (max-width:1024px){.lcit .font_body_1{font-size:1.6rem}
+.lcit .tab-wrap{margin:4.8rem 0 3.2rem 0}
+.lcit .tab-content{margin-top:2.4rem}
+.lcit .tab-content .font_contents_title_2{margin-top:3.2rem}
+.lcit .tab-content .font_body_2{margin-top:1.6rem}
+}
+@media all and (max-width:767px){.lcit .tab-wrap{margin:4rem 0 3.2rem 0}
+.lcit .tab-content{margin-top:2.4rem}
+}
+html[dir=rtl] .lcit .tab-wrap .tab-list li{margin-left:2.8rem;margin-right:unset}

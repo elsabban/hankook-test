@@ -1,0 +1,43 @@
+.lwh{padding:19.2rem 0}
+.lwh.bg-black{background:#000}
+.lwh.bg-black .txt-wrap{color:#fff}
+.lwh.bg-black .swiper-inner .swiper-pagination-bullet{background-color:#fff;opacity:.2}
+.lwh.bg-black .swiper-inner .swiper-pagination-bullet-active{opacity:1}
+.lwh .t-only{display:none}
+.lwh .m-only{display:none}
+.lwh .swiper-inner{width:100%;margin-top:12.8rem;position:relative}
+.lwh .swiper-inner .swiper-horizontal>.swiper-pagination-bullets,.lwh .swiper-inner .swiper-pagination-bullets.swiper-pagination-horizontal,.lwh .swiper-inner .swiper-pagination-custom,.lwh .swiper-inner .swiper-pagination-fraction{bottom:-5.6rem}
+.lwh .swiper-inner .swiper-pagination-bullet{background-color:#000;opacity:.5;margin:0 .6rem}
+.lwh .swiper-inner .swiper-pagination-bullet-active{opacity:1}
+.lwh .swiper-inner .swiper-slide{width:min(90%,144rem);position:relative}
+.lwh .swiper-inner .swiper-slide>div{width:100%;padding-top:44.444%}
+.lwh .swiper-inner .swiper-slide>div .slide-tit{font-size:3.2rem;font-weight:bold;color:#fff;letter-spacing:-0.032rem;line-height:4rem;position:absolute;top:50%;left:8rem;transform:translateY(-50%);z-index:10}
+.lwh .swiper-inner .swiper-slide>div .pic{position:absolute;width:100%;height:100%;top:0;left:0}
+.lwh .swiper-inner .swiper-slide>div .pic .video-wrap{width:100%;height:100%}
+.lwh .swiper-inner .swiper-slide>div .pic video,.lwh .swiper-inner .swiper-slide>div .pic img{width:100%;height:100%;object-fit:cover}
+.lwh .txt-wrap{color:#000}
+.lwh .txt-wrap dt{font-size:5.6rem;font-weight:bold;line-height:7rem;letter-spacing:-0.056rem}
+.lwh .txt-wrap dd{margin-top:3.2rem;font-size:1.8rem;font-weight:300;line-height:3rem;letter-spacing:-0.054rem}
+.lwh .txt-wrap dd p:first-child{margin-bottom:3.2rem;font-size:2.8rem;font-weight:bold;line-height:4rem;letter-spacing:-0.056rem}
+@media all and (max-width:1024px){.lwh{padding:7.2rem 0 12rem}
+.lwh .pc-only{display:none}
+.lwh .t-only{display:block}
+.lwh .swiper-inner{margin-top:5.6rem}
+.lwh .swiper-inner .swiper-button-next,.lwh .swiper-inner .swiper-button-prev{display:none}
+.lwh .swiper-inner .swiper-slide>div{padding-top:44.318%}
+.lwh .swiper-inner .swiper-slide>div .slide-tit{left:3.2rem}
+.lwh .txt-wrap dt{font-size:2.4rem;line-height:3.2rem;letter-spacing:-0.024rem}
+.lwh .txt-wrap dd{margin-top:1.6rem;font-size:1.4rem;line-height:2.4rem;letter-spacing:-0.049rem}
+.lwh .txt-wrap dd p:first-child{margin-bottom:1.6rem;font-size:1.8rem;line-height:2.6rem;letter-spacing:-0.054rem}
+}
+@media all and (max-width:767px){.lwh{padding:7.2rem 0 11.2rem}
+.lwh .t-only{display:none}
+.lwh .m-only{display:block}
+.lwh .swiper-inner .swiper-horizontal>.swiper-pagination-bullets,.lwh .swiper-inner .swiper-pagination-bullets.swiper-pagination-horizontal,.lwh .swiper-inner .swiper-pagination-custom,.lwh .swiper-inner .swiper-pagination-fraction{bottom:-4.8rem}
+.lwh .swiper-inner .swiper-slide{width:calc(100% - 4rem)}
+.lwh .swiper-inner .swiper-slide>div{padding-top:68.571%}
+.lwh .swiper-inner .swiper-slide>div .slide-tit{left:2rem}
+}
+html[dir=rtl] .lwh .swiper-inner .swiper-slide>div .slide-tit{left:unset;right:8rem}
+@media all and (max-width:1024px){html[dir=rtl] .lwh .swiper-inner .swiper-slide>div .slide-tit{right:3.2rem}
+}

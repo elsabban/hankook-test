@@ -1,0 +1,37 @@
+.lwl{overflow:hidden}
+.lwl .swiper-inner{width:100%;position:relative;margin-top:8.6rem}
+.lwl .swiper-inner .swiper{width:calc(50% + 50vw)}
+.lwl .swiper-inner .swiper-nav{position:absolute;right:0;top:-11.6rem}
+.lwl .swiper-inner .swiper-slide{width:min(30%,40.8rem);position:relative}
+.lwl .ban{position:relative;display:block}
+.lwl .ban:before{content:"";position:absolute;top:0;left:0;bottom:0;right:0;background:rgba(0,0,0,.1)}
+.lwl .ban .logo{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:77%;max-width:31rem}
+.lwl .banner-m{display:none}
+.lwl .txt-wrap{color:#000;padding-right:35%}
+.lwl .txt-wrap .tag{margin-top:4rem}
+.lwl .txt-wrap .tag span{display:inline-block;font-size:1.4rem;line-height:2rem;padding:.6rem 1.4rem;border:1px solid rgba(0,0,0,.15);border-radius:5rem;margin-right:.2rem;margin-bottom:1rem;color:#000;letter-spacing:0}
+.lwl .txt-wrap dt{font-size:5.6rem;font-weight:bold;line-height:7rem;letter-spacing:-0.056rem}
+.lwl .txt-wrap dd{margin-top:3.2rem;font-size:1.8rem;font-weight:300;line-height:3rem;letter-spacing:-0.054rem}
+.lwl .txt-wrap dd p:first-child{margin-bottom:3.2rem;font-size:2.8rem;font-weight:bold;line-height:4rem;letter-spacing:-0.056rem}
+@media all and (max-width:1024px){.lwl .swiper-inner{margin-top:3.8rem}
+.lwl .swiper-inner .swiper-nav{display:none}
+.lwl .txt-wrap{padding-right:32%}
+.lwl .txt-wrap .tag{margin-top:2.4rem}
+.lwl .txt-wrap dt{font-size:2.4rem;line-height:3.2rem;letter-spacing:-0.024rem}
+.lwl .txt-wrap dd{margin-top:1.6rem;font-size:1.4rem;line-height:2.4rem;letter-spacing:-0.049rem}
+.lwl .txt-wrap dd p:first-child{margin-bottom:1.6rem;font-size:1.8rem;line-height:2.6rem;letter-spacing:-0.054rem}
+}
+@media all and (max-width:767px){.lwl .swiper-inner{display:none}
+.lwl .txt-wrap{padding-right:0}
+.lwl .txt-wrap .tag{margin-top:1.6rem}
+.lwl .txt-wrap .tag span{font-size:1.2rem;line-height:1.8rem;padding:.5rem 1.2rem;margin-right:0}
+.lwl .banner-m{display:block;margin-top:3.8rem}
+.lwl .banner-m .ban .banner{width:100%}
+.lwl .banner-m .ban .logo{max-width:21.4rem}
+}
+html[dir=rtl] .lwl .swiper-inner .swiper-nav{right:unset;left:0}
+html[dir=rtl] .lwl .txt-wrap{padding-right:unset;padding-left:35%}
+@media all and (max-width:1024px){html[dir=rtl] .lwl .txt-wrap{padding-right:unset;padding-left:32%}
+}
+@media all and (max-width:767px){html[dir=rtl] .lwl .txt-wrap{padding-right:unset;padding-left:0}
+}

@@ -1,0 +1,92 @@
+.gmcl .tab-block-box{margin:unset}
+.gmcl-cate-container{position:relative;display:flex;align-items:center;justify-content:center;margin-bottom:6.4rem}
+.gmcl-cate-container .type-select,.gmcl-cate-container .outlink{display:none}
+.gmcl-cate-container_a .outlink{display:block}
+.gmcl-cate-container_a_1 .cate-block-box.over+.tab-block-blur{width:2.4rem;background:linear-gradient(to right,rgba(255,255,255,0) 0,white)}
+.gmcl-cate-container_b{justify-content:space-between}
+.gmcl-cate-container_b.over .tab-block-box{margin-bottom:3rem}
+@media all and (max-width:1024px){.gmcl-cate-container_b.over .tab-block-box{margin-bottom:2.4rem}
+}
+@media all and (max-width:767px){.gmcl-cate-container_b.over .tab-block-box{margin-bottom:2rem}
+}
+.gmcl-cate-container_b button .hash{display:none}
+.gmcl-cate-container_b .type-select{display:block}
+.gmcl-cate-container_b .type-select button{color:#000}
+.gmcl-cate-container .cate-block-box{overflow-x:scroll;overflow-y:hidden}
+.gmcl-cate-container .cate-block-box.over{position:relative}
+.gmcl-cate-container .cate-block-box.over+.tab-block-blur{content:"";position:absolute;width:4.8rem;height:100%;top:0;right:0;background:linear-gradient(to right,rgba(255,255,255,0) 0,white 50%,white);z-index:1;pointer-events:none}
+.gmcl-cate-container .cate-block-box::-webkit-scrollbar{width:0;height:0}
+.gmcl-cate-container .cate-block-box .tab-inner .btn-tab:not(:last-of-type){margin-right:2rem}
+.gmcl-cate-container button{font-family:"Hankook",sans-serif;font-size:2.4rem;font-weight:500;color:#999;line-height:3.6rem;transition:color .3s;-webkit-transition:color .3s}
+.gmcl-cate-container button .hash{display:inline-block;margin-right:.3rem;color:#aaa}
+.gmcl-cate-container button.outlink{position:relative;padding-left:2.4rem;position:relative;color:#000}
+.gmcl-cate-container button.outlink::before{content:"";position:absolute;top:50%;left:0;transform:translateY(-50%);width:2px;height:80%;background-color:rgba(0,0,0,.15)}
+.gmcl .gmcl-list{width:100%}
+.gmcl .gmcl-list__list{display:flex;flex-wrap:wrap;margin:-4rem -1.4rem}
+@media all and (max-width:1024px){.gmcl .gmcl-list__list{margin:-2.4rem -0.7rem}
+}
+.gmcl .gmcl-list__list.hidden{display:none}
+.gmcl .gmcl-list__item{width:50%;padding:4rem 1.4rem;box-sizing:border-box}
+@media all and (max-width:1024px){.gmcl .gmcl-list__item{padding:2.4rem .7rem}
+}
+@media all and (max-width:767px){.gmcl .gmcl-list__item{width:100%}
+}
+.gmcl .gmcl-list__item[data-post-type=video] .thumb{position:relative}
+.gmcl .gmcl-list__item[data-post-type=video] .thumb::after{content:"";position:absolute;bottom:2rem;right:2rem;width:4.8rem;height:4.8rem;border-radius:50%;background-color:rgba(17,17,17,.7);background-repeat:no-repeat;background-size:2.4rem 2.4rem;background-position:center;background-image:url(../../../../clientlibs/clientlib-base/resources/svg/w_play.svg)}
+@media all and (max-width:1024px){.gmcl .gmcl-list__item[data-post-type=video] .thumb::after{bottom:1.2rem;right:1.2rem;width:4rem;height:4rem}
+}
+.gmcl .gmcl-list__item.hidden{display:none}
+.gmcl .gmcl-list__item.type-hidden{display:none}
+.gmcl .gmcl-list__item.sm{width:33.3333333333%}
+@media all and (max-width:767px){.gmcl .gmcl-list__item.sm{width:50%}
+}
+.gmcl .gmcl-list__item a{display:block}
+.gmcl .gmcl-list .thumb{position:relative;overflow:hidden;padding-bottom:100%}
+.gmcl .gmcl-list .thumb--sm{padding-bottom:75.9207%}
+.gmcl .gmcl-list .thumb--lg{padding-bottom:125.06%}
+.gmcl .gmcl-list .thumb img{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);transition:transform .6s}
+@media all and (min-width:1024px){.gmcl .gmcl-list .thumb:hover img{transform:translate(-50%,-50%) scale(1.1)}
+}
+.gmcl .gmcl-list .tags{margin-top:2rem;margin-bottom:.4rem}
+@media all and (max-width:1024px){.gmcl .gmcl-list .tags{margin-top:1.4rem}
+}
+.gmcl .gmcl-list .tags li{display:inline-block;font-size:1.3rem;line-height:2;color:#666}
+@media all and (max-width:767px){.gmcl .gmcl-list .tags li{font-size:1.1rem}
+}
+.gmcl .gmcl-list .tit{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+@media all and (max-width:1024px){.gmcl .gmcl-list .tit{font-size:1.4rem}
+}
+.gmcl .gmcl-list .date{margin-top:1rem}
+@media all and (max-width:1024px){.gmcl .gmcl-list .date{margin-top:.8rem}
+}
+.gmcl .gmcl-list .tags,.gmcl .gmcl-list .tags+.tit,.gmcl .gmcl-list .date{padding-left:1.2rem}
+@media all and (max-width:1024px){.gmcl .gmcl-list .tags,.gmcl .gmcl-list .tags+.tit,.gmcl .gmcl-list .date{padding-left:.8rem}
+}
+.gmcl .gmcl-list .btn--round{margin-top:4rem}
+.gmcl .no_data{display:none;padding:20rem 0;color:#999;text-align:center}
+.gmcl .no_data.is-active{display:block}
+#gmcl-select{position:absolute;left:50%;transform:translateX(-50%);z-index:9;top:0;min-width:15rem;opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s,padding-top .4s}
+#gmcl-select.is-active{opacity:1;visibility:visible}
+#gmcl-select .select-box{transition:padding-top .4s}
+#gmcl-select .select-box .drop-box{left:50%;right:initial;transform:translateX(-50%);min-width:40rem}
+@media all and (max-width:1024px){#gmcl-select .select-box .drop-box{min-width:50vw}
+}
+@media all and (max-width:767px){#gmcl-select .select-box .drop-box{min-width:80vw}
+}
+#gmcl-select .btn{position:relative;font-size:1.8rem;color:#000;font-weight:500;padding:0 4.2rem 0 8.2rem;text-align:center;white-space:nowrap}
+#gmcl-select .btn:after{position:absolute;top:50%;transform:translateY(-50%);content:"Category";display:inline-block;left:2.2rem;font-size:1.2rem;font-weight:500;color:#888}
+#gmcl-type-select{z-index:1}
+@media all and (max-width:1024px){.gmcl-cate-container{margin-bottom:2.8rem}
+.gmcl-cate-container .cate-block-box .tab-inner .btn-tab{font-size:1.8rem}
+.gmcl-cate-container .cate-block-box .tab-inner .btn-tab:not(:last-of-type){margin-right:1.4rem}
+.gmcl-cate-container .cate-block-box .tab-inner .btn-tab.active::after{bottom:.3rem}
+.gmcl-cate-container button{font-size:1.8rem}
+}
+@media all and (max-width:767px){.gmcl-cate-container .tab-block-box{width:100%}
+.gmcl-cate-container_b{flex-wrap:wrap}
+.gmcl-cate-container_b #gmcl-type-select{width:100%;margin-top:.8rem}
+}
+html[dir=rtl] .gmcl .gmcl-list .tags,html[dir=rtl] .gmcl .gmcl-list .tags+.tit{padding-left:unset;padding-right:1.2rem}
+@media all and (max-width:1024px){html[dir=rtl] .gmcl .gmcl-list .tags,html[dir=rtl] .gmcl .gmcl-list .tags+.tit{padding-right:.8rem}
+}
+html[dir=rtl] .gmcl .gmcl-list__item[data-post-type=video] .thumb::after{right:unset;left:2rem}

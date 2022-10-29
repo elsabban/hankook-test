@@ -1,0 +1,13 @@
+.lctn .list{margin-top:3.2rem}
+.lctn li{margin-top:3rem}
+.lctn li h3{font-weight:500;display:flex}
+.lctn li h3 span{display:inline-block;height:100%;margin-right:.5rem}
+.lctn li p{padding-left:2rem;margin-top:1rem}
+@media all and (max-width:1024px){.lctn .list{margin-top:2rem}
+.lctn li{margin-top:2.2rem}
+.lctn li p{margin-top:.8rem}
+}
+html[dir=rtl] .lctn li h3 span{margin-right:unset;margin-left:.5rem}
+html[dir=rtl] .lctn li p{padding-left:unset;padding-right:2rem}
+@media all and (max-width:1024px){html[dir=rtl] .lctn li p{padding-right:.8rem}
+}

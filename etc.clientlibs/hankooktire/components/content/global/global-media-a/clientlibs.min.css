@@ -1,0 +1,10 @@
+.gma-wrapper.video-wrap{position:relative;padding-top:56.25%}
+.gma-wrapper.video-wrap video,.gma-wrapper.video-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:top left}
+.gma-title{margin-top:3.2rem;text-align:center}
+.gma[data-bg-type=black]{background-color:#000}
+.gma[data-bg-type=black] .gma-title{color:#fff}
+.gma[data-bg-type=white]{background-color:#fff}
+.gma[data-bg-type=white] .gma-title{color:#000}
+.gma .play-pause-button.hidden{display:none}
+@media all and (max-width:1024px){.gma-title{margin-top:2rem}
+}

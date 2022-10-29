@@ -1,0 +1,30 @@
+html[dir=ltr] .ltdce .list-wrap .list .swiper-slide:first-child{margin-left:auto !important}
+html[dir=ltr] .ltdce .list-wrap .list .swiper-slide:last-child{margin-right:auto !important}
+.ltdce .swiper-scrollbar{display:none}
+.ltdce .text-wrap{padding:0 12.5vw}
+.ltdce .text-wrap p{margin-top:2.4rem}
+@media all and (max-width:1024px){.ltdce .text-wrap p{margin-top:1.2rem}
+}
+.ltdce .text-wrap p span{color:red}
+.ltdce .list-wrap{padding:0 12.5vw}
+.ltdce .list-wrap .list{margin-top:6.4rem}
+.ltdce .list-wrap .list .swiper-slide h3{margin-top:2.4rem}
+.ltdce .list-wrap .list .swiper-slide h3 span{color:red}
+.ltdce .list-wrap .list .swiper-slide p{margin-top:.8rem}
+@media all and (max-width:1366px){.ltdce .text-wrap{padding:0 7.8331vw}
+.ltdce .list-wrap{padding:0 7.8331vw}
+}
+@media all and (max-width:1024px){.ltdce .font_contents_title_2_main{font-size:1.6rem}
+.ltdce .font_body_3{font-size:1.3rem}
+.ltdce .font_headline_3{font-size:2.8rem}
+.ltdce .text-wrap{padding:0 4.1667vw}
+.ltdce .list-wrap{padding:0 4.1667vw 0}
+.ltdce .list-wrap .list{margin-top:3.6rem}
+.ltdce .list-wrap .list .swiper-slide{max-width:31.4rem}
+}
+@media all and (max-width:767px){.ltdce .text-wrap{padding:0 max(5.1282vw,2rem)}
+.ltdce .list-wrap{padding:0 max(5.1282vw,2rem) 3.2rem;padding-bottom:0}
+.ltdce .list-wrap .list{margin-top:3.2rem}
+}
+html[dir=rtl] .ltdce .list-wrap .list .swiper-slide:first-child{margin-right:auto !important}
+html[dir=rtl] .ltdce .list-wrap .list .swiper-slide:last-child{margin-left:auto !important}

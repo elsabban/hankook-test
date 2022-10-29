@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Icon_-_Clear_Sky" data-name="Icon - Clear Sky">
+        <g id="그룹_7676" data-name="그룹 7676" transform="translate(4 4)">
+            <path id="패스_45580" data-name="패스 45580" class="cls-2" d="M13 28.421a3.158 3.158 0 0 1 3.158-3.158h.074a4.47 4.47 0 1 1 8.86-1.056h.013a3.684 3.684 0 1 1 0 7.368H13" transform="translate(-8.789 -12.632)"/>
+            <g id="그룹_7700" data-name="그룹 7700">
+                <g id="그룹_7680" data-name="그룹 7680" transform="translate(0 7.368)">
+                    <g id="그룹_7679" data-name="그룹 7679">
+                        <g id="그룹_7678" data-name="그룹 7678">
+                            <g id="그룹_7677" data-name="그룹 7677">
+                                <g id="그룹_7676-2" data-name="그룹 7676">
+                                    <path id="선_32" data-name="선 32" class="cls-2" d="M0 0h2.105"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="그룹_7689" data-name="그룹 7689" transform="translate(2.158 2.158)">
+                    <g id="그룹_7684" data-name="그룹 7684" transform="translate(0 8.932)">
+                        <g id="그룹_7683" data-name="그룹 7683">
+                            <g id="그룹_7682" data-name="그룹 7682">
+                                <g id="그룹_7681" data-name="그룹 7681">
+                                    <path id="선_33" data-name="선 33" class="cls-2" d="M0 1.489 1.489 0"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="그룹_7688" data-name="그룹 7688" transform="translate(8.932)">
+                        <g id="그룹_7687" data-name="그룹 7687">
+                            <g id="그룹_7686" data-name="그룹 7686">
+                                <g id="그룹_7685" data-name="그룹 7685">
+                                    <path id="선_34" data-name="선 34" class="cls-2" d="M0 1.489 1.489 0"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="그룹_7694" data-name="그룹 7694" transform="translate(7.368)">
+                    <g id="그룹_7693" data-name="그룹 7693">
+                        <g id="그룹_7692" data-name="그룹 7692">
+                            <g id="그룹_7691" data-name="그룹 7691">
+                                <g id="그룹_7690" data-name="그룹 7690">
+                                    <path id="선_35" data-name="선 35" class="cls-2" d="M0 2.105V0"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="그룹_7699" data-name="그룹 7699" transform="translate(2.158 2.158)">
+                    <g id="그룹_7698" data-name="그룹 7698">
+                        <g id="그룹_7697" data-name="그룹 7697">
+                            <g id="그룹_7696" data-name="그룹 7696">
+                                <g id="그룹_7695" data-name="그룹 7695">
+                                    <path id="선_36" data-name="선 36" class="cls-2" d="M1.489 1.489 0 0"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <path id="패스_45581" data-name="패스 45581" class="cls-2" d="M31 29.106A3.674 3.674 0 0 1 33.632 28" transform="translate(-17.316 -16.421)"/>
+            <path id="패스_45582" data-name="패스 45582" class="cls-2" d="M16.158 20.316a3.158 3.158 0 1 1 3.158-3.158" transform="translate(-8.789 -9.789)"/>
+        </g>
+    </g>
+</svg>

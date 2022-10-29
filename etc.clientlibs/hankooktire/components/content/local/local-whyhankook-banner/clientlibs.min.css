@@ -1,0 +1,27 @@
+.lwb .m-only{display:none}
+.lwb .banner-wrapper{height:72rem}
+.lwb .banner-wrapper ul{height:100%;display:flex;flex-wrap:wrap;flex-direction:column}
+.lwb .banner-wrapper li{position:relative;width:33.3333333333%;height:33.3333333333%}
+.lwb .banner-wrapper li:first-child{height:100%}
+.lwb .banner-wrapper li a{display:block;width:100%;height:100%}
+.lwb .banner-wrapper li a:hover .ban>img{transform:scale(1.1)}
+.lwb .banner-wrapper .ban{position:absolute;z-index:-1;width:100%;height:100%;top:0;left:0;overflow:hidden}
+.lwb .banner-wrapper .ban img{width:100%;height:100%;object-fit:cover;transition:all .5s}
+.lwb .banner-wrapper .ban:after{position:absolute;width:100%;height:100%;top:0;left:0;content:"";background:rgba(0,0,0,.15)}
+.lwb .banner-wrapper .txt{display:inline-block;position:relative;top:50%;transform:translateY(-50%);left:min(80px,15%)}
+.lwb .banner-wrapper .tit{margin-bottom:.5rem;font-size:2.8rem;line-height:3.6rem;letter-spacing:-0.028rem;color:#fff;font-weight:bold}
+@media all and (max-width:1024px){.lwb .banner-wrapper{height:67.2rem}
+.lwb .banner-wrapper li{width:50%;height:25%}
+.lwb .banner-wrapper li:first-child{height:50%}
+.lwb .banner-wrapper .txt{left:2rem}
+.lwb .banner-wrapper .tit{margin-bottom:.1rem;font-size:1.8rem;line-height:2.6rem;letter-spacing:-0.018rem}
+}
+@media all and (max-width:767px){.lwb .m-only{display:block}
+.lwb .pc-only{display:none}
+.lwb .banner-wrapper{height:auto}
+.lwb .banner-wrapper li{width:100%;height:16.8rem !important}
+.lwb .banner-wrapper .tit{margin-bottom:.1rem;font-size:1.8rem;line-height:2.6rem;letter-spacing:-0.018rem}
+}
+html[dir=rtl] .lwb .banner-wrapper .txt{left:unset;right:min(80px,15%)}
+@media all and (max-width:1024px){html[dir=rtl] .lwb .banner-wrapper .txt{left:unset;right:2rem}
+}

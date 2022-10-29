@@ -1,0 +1,17 @@
+.lcita{max-width:115.2rem;margin:0 auto;display:flex;flex-wrap:wrap;row-gap:3.2rem}
+.lcita ul{margin-top:2.4rem}
+.lcita ul:not(.list-unstyled) li .text-area>span{display:inline-block;padding-left:1.2rem;position:relative}
+.lcita ul:not(.list-unstyled) li .text-area>span::before{position:absolute;content:"·";left:0}
+.lcita .img-title{max-width:calc(936px + max(8rem,4.17vw)*2);width:100%;height:100%;margin:0 auto;padding:0 max(8rem,4.17vw)}
+@media all and (max-width:1024px){.lcita .video-wrap{padding:0 min(8rem,4.17vw)}
+.lcita .img-wrap{padding:0 min(8rem,4.17vw)}
+.lcita ul li .text-area>span{display:block}
+.lcita ul li .text-area>span::after{top:1rem}
+.lcita ul li .text-area>span .btn-area{display:block;padding-left:0rem}
+.lcita .img-title{max-width:none;padding:0 2rem}
+}
+@media all and (max-width:767px){.lcita .video-wrap{padding:0 2rem}
+.lcita .img-wrap{padding:0 2rem}
+}
+html[dir=rtl] .lcita ul:not(.list-unstyled) li .text-area>span{padding-right:1.2rem;padding-left:unset}
+html[dir=rtl] .lcita ul:not(.list-unstyled) li .text-area>span::before{right:0;left:unset}

@@ -1,0 +1,423 @@
+.review{display:flex;justify-content:center;background-color:#f5f5f5;padding:8rem}
+.review__summary{display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;text-align:center;padding-right:6.6rem;margin-right:6.6rem}
+.review__summary .summary-value{display:flex;justify-content:center;align-items:center;margin-bottom:2rem;font-size:4rem;font-weight:600}
+.review__summary .summary-value .value-unit{display:flex;align-items:center;color:#999}
+.review__summary .summary-value .value-unit::before{content:"/";font-size:2.8rem}
+.review__summary .summary-value .value-unit::after{content:"5";font-size:4rem}
+.review__summary .review-link{color:#888;font-size:1.4rem;font-weight:500}
+.review__summary .rating-stars{display:block;position:relative;width:12.8rem;height:2.4rem;margin:0 auto;font-size:1.6rem;letter-spacing:.3em}
+.review__summary .rating-stars::before,.review__summary .rating-stars::after{position:absolute;width:100%;height:100%;top:0;left:0}
+.review__summary .rating-stars::before{content:"";background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/ico_stars_gray.svg)}
+.review__summary .rating-stars::after{content:"";background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/ico_stars.svg)}
+.review__summary[data-rating="0"] .rating-stars::after{clip-path:polygon(0 0,1% 0,1% 100%,0 100%)}
+.review__summary[data-rating="0.1"] .rating-stars::after{clip-path:polygon(0 0,3% 0,3% 100%,0 100%)}
+.review__summary[data-rating="0.2"] .rating-stars::after{clip-path:polygon(0 0,5% 0,5% 100%,0 100%)}
+.review__summary[data-rating="0.3"] .rating-stars::after{clip-path:polygon(0 0,7% 0,7% 100%,0 100%)}
+.review__summary[data-rating="0.4"] .rating-stars::after{clip-path:polygon(0 0,9% 0,9% 100%,0 100%)}
+.review__summary[data-rating="0.5"] .rating-stars::after{clip-path:polygon(0 0,11% 0,11% 100%,0 100%)}
+.review__summary[data-rating="0.6"] .rating-stars::after{clip-path:polygon(0 0,13% 0,13% 100%,0 100%)}
+.review__summary[data-rating="0.7"] .rating-stars::after{clip-path:polygon(0 0,15% 0,15% 100%,0 100%)}
+.review__summary[data-rating="0.8"] .rating-stars::after{clip-path:polygon(0 0,17% 0,17% 100%,0 100%)}
+.review__summary[data-rating="0.9"] .rating-stars::after{clip-path:polygon(0 0,19% 0,19% 100%,0 100%)}
+.review__summary[data-rating="1"] .rating-stars::after{clip-path:polygon(0 0,21% 0,21% 100%,0 100%)}
+.review__summary[data-rating="1.1"] .rating-stars::after{clip-path:polygon(0 0,23% 0,23% 100%,0 100%)}
+.review__summary[data-rating="1.2"] .rating-stars::after{clip-path:polygon(0 0,25% 0,25% 100%,0 100%)}
+.review__summary[data-rating="1.3"] .rating-stars::after{clip-path:polygon(0 0,27% 0,27% 100%,0 100%)}
+.review__summary[data-rating="1.4"] .rating-stars::after{clip-path:polygon(0 0,29% 0,29% 100%,0 100%)}
+.review__summary[data-rating="1.5"] .rating-stars::after{clip-path:polygon(0 0,31% 0,31% 100%,0 100%)}
+.review__summary[data-rating="1.6"] .rating-stars::after{clip-path:polygon(0 0,33% 0,33% 100%,0 100%)}
+.review__summary[data-rating="1.7"] .rating-stars::after{clip-path:polygon(0 0,35% 0,35% 100%,0 100%)}
+.review__summary[data-rating="1.8"] .rating-stars::after{clip-path:polygon(0 0,37% 0,37% 100%,0 100%)}
+.review__summary[data-rating="1.9"] .rating-stars::after{clip-path:polygon(0 0,39% 0,39% 100%,0 100%)}
+.review__summary[data-rating="2"] .rating-stars::after{clip-path:polygon(0 0,41% 0,41% 100%,0 100%)}
+.review__summary[data-rating="2.1"] .rating-stars::after{clip-path:polygon(0 0,43% 0,43% 100%,0 100%)}
+.review__summary[data-rating="2.2"] .rating-stars::after{clip-path:polygon(0 0,45% 0,45% 100%,0 100%)}
+.review__summary[data-rating="2.3"] .rating-stars::after{clip-path:polygon(0 0,47% 0,47% 100%,0 100%)}
+.review__summary[data-rating="2.4"] .rating-stars::after{clip-path:polygon(0 0,49% 0,49% 100%,0 100%)}
+.review__summary[data-rating="2.5"] .rating-stars::after{clip-path:polygon(0 0,51% 0,51% 100%,0 100%)}
+.review__summary[data-rating="2.6"] .rating-stars::after{clip-path:polygon(0 0,53% 0,53% 100%,0 100%)}
+.review__summary[data-rating="2.7"] .rating-stars::after{clip-path:polygon(0 0,55% 0,55% 100%,0 100%)}
+.review__summary[data-rating="2.8"] .rating-stars::after{clip-path:polygon(0 0,57% 0,57% 100%,0 100%)}
+.review__summary[data-rating="2.9"] .rating-stars::after{clip-path:polygon(0 0,59% 0,59% 100%,0 100%)}
+.review__summary[data-rating="3"] .rating-stars::after{clip-path:polygon(0 0,61% 0,61% 100%,0 100%)}
+.review__summary[data-rating="3.1"] .rating-stars::after{clip-path:polygon(0 0,63% 0,63% 100%,0 100%)}
+.review__summary[data-rating="3.2"] .rating-stars::after{clip-path:polygon(0 0,65% 0,65% 100%,0 100%)}
+.review__summary[data-rating="3.3"] .rating-stars::after{clip-path:polygon(0 0,67% 0,67% 100%,0 100%)}
+.review__summary[data-rating="3.4"] .rating-stars::after{clip-path:polygon(0 0,69% 0,69% 100%,0 100%)}
+.review__summary[data-rating="3.5"] .rating-stars::after{clip-path:polygon(0 0,71% 0,71% 100%,0 100%)}
+.review__summary[data-rating="3.6"] .rating-stars::after{clip-path:polygon(0 0,73% 0,73% 100%,0 100%)}
+.review__summary[data-rating="3.7"] .rating-stars::after{clip-path:polygon(0 0,75% 0,75% 100%,0 100%)}
+.review__summary[data-rating="3.8"] .rating-stars::after{clip-path:polygon(0 0,77% 0,77% 100%,0 100%)}
+.review__summary[data-rating="3.9"] .rating-stars::after{clip-path:polygon(0 0,79% 0,79% 100%,0 100%)}
+.review__summary[data-rating="4"] .rating-stars::after{clip-path:polygon(0 0,81% 0,81% 100%,0 100%)}
+.review__summary[data-rating="4.1"] .rating-stars::after{clip-path:polygon(0 0,83% 0,83% 100%,0 100%)}
+.review__summary[data-rating="4.2"] .rating-stars::after{clip-path:polygon(0 0,85% 0,85% 100%,0 100%)}
+.review__summary[data-rating="4.3"] .rating-stars::after{clip-path:polygon(0 0,87% 0,87% 100%,0 100%)}
+.review__summary[data-rating="4.4"] .rating-stars::after{clip-path:polygon(0 0,89% 0,89% 100%,0 100%)}
+.review__summary[data-rating="4.5"] .rating-stars::after{clip-path:polygon(0 0,91% 0,91% 100%,0 100%)}
+.review__summary[data-rating="4.6"] .rating-stars::after{clip-path:polygon(0 0,93% 0,93% 100%,0 100%)}
+.review__summary[data-rating="4.7"] .rating-stars::after{clip-path:polygon(0 0,95% 0,95% 100%,0 100%)}
+.review__summary[data-rating="4.8"] .rating-stars::after{clip-path:polygon(0 0,97% 0,97% 100%,0 100%)}
+.review__summary[data-rating="4.9"] .rating-stars::after{clip-path:polygon(0 0,99% 0,99% 100%,0 100%)}
+.review__summary[data-rating="5"] .rating-stars::after{clip-path:polygon(0 0,101% 0,101% 100%,0 100%)}
+.review__summary::after{content:"";display:block;position:absolute;top:0;right:0;width:1px;height:100%;background:rgba(0,0,0,.1)}
+.review__summary .pop_btn{margin-top:3rem;white-space:nowrap}
+.review__list{display:flex;flex-direction:column;justify-content:center}
+.review__item{display:flex;justify-content:space-between;align-items:center;position:relative;font-size:1.6rem}
+.review__item+.review__item{margin-top:1.4rem}
+.review__item .tit{flex:1;margin-right:3rem}
+.review__item .rating{position:relative;right:0;top:0;text-align:right;margin-right:1rem;display:block;width:6.4rem;height:1.2rem}
+.review__item .rating::before,.review__item .rating::after{position:absolute;width:100%;height:100%;top:0;left:0;background-size:100%}
+.review__item .rating::before{content:"";background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/ico_stars_gray.svg)}
+.review__item .rating::after{content:"";background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/ico_stars.svg)}
+.review__item .rating[data-rating="0"]::after{clip-path:polygon(0 0,1% 0,1% 100%,0 100%)}
+.review__item .rating[data-rating="0.1"]::after{clip-path:polygon(0 0,3% 0,3% 100%,0 100%)}
+.review__item .rating[data-rating="0.2"]::after{clip-path:polygon(0 0,5% 0,5% 100%,0 100%)}
+.review__item .rating[data-rating="0.3"]::after{clip-path:polygon(0 0,7% 0,7% 100%,0 100%)}
+.review__item .rating[data-rating="0.4"]::after{clip-path:polygon(0 0,9% 0,9% 100%,0 100%)}
+.review__item .rating[data-rating="0.5"]::after{clip-path:polygon(0 0,11% 0,11% 100%,0 100%)}
+.review__item .rating[data-rating="0.6"]::after{clip-path:polygon(0 0,13% 0,13% 100%,0 100%)}
+.review__item .rating[data-rating="0.7"]::after{clip-path:polygon(0 0,15% 0,15% 100%,0 100%)}
+.review__item .rating[data-rating="0.8"]::after{clip-path:polygon(0 0,17% 0,17% 100%,0 100%)}
+.review__item .rating[data-rating="0.9"]::after{clip-path:polygon(0 0,19% 0,19% 100%,0 100%)}
+.review__item .rating[data-rating="1"]::after{clip-path:polygon(0 0,21% 0,21% 100%,0 100%)}
+.review__item .rating[data-rating="1.1"]::after{clip-path:polygon(0 0,23% 0,23% 100%,0 100%)}
+.review__item .rating[data-rating="1.2"]::after{clip-path:polygon(0 0,25% 0,25% 100%,0 100%)}
+.review__item .rating[data-rating="1.3"]::after{clip-path:polygon(0 0,27% 0,27% 100%,0 100%)}
+.review__item .rating[data-rating="1.4"]::after{clip-path:polygon(0 0,29% 0,29% 100%,0 100%)}
+.review__item .rating[data-rating="1.5"]::after{clip-path:polygon(0 0,31% 0,31% 100%,0 100%)}
+.review__item .rating[data-rating="1.6"]::after{clip-path:polygon(0 0,33% 0,33% 100%,0 100%)}
+.review__item .rating[data-rating="1.7"]::after{clip-path:polygon(0 0,35% 0,35% 100%,0 100%)}
+.review__item .rating[data-rating="1.8"]::after{clip-path:polygon(0 0,37% 0,37% 100%,0 100%)}
+.review__item .rating[data-rating="1.9"]::after{clip-path:polygon(0 0,39% 0,39% 100%,0 100%)}
+.review__item .rating[data-rating="2"]::after{clip-path:polygon(0 0,41% 0,41% 100%,0 100%)}
+.review__item .rating[data-rating="2.1"]::after{clip-path:polygon(0 0,43% 0,43% 100%,0 100%)}
+.review__item .rating[data-rating="2.2"]::after{clip-path:polygon(0 0,45% 0,45% 100%,0 100%)}
+.review__item .rating[data-rating="2.3"]::after{clip-path:polygon(0 0,47% 0,47% 100%,0 100%)}
+.review__item .rating[data-rating="2.4"]::after{clip-path:polygon(0 0,49% 0,49% 100%,0 100%)}
+.review__item .rating[data-rating="2.5"]::after{clip-path:polygon(0 0,51% 0,51% 100%,0 100%)}
+.review__item .rating[data-rating="2.6"]::after{clip-path:polygon(0 0,53% 0,53% 100%,0 100%)}
+.review__item .rating[data-rating="2.7"]::after{clip-path:polygon(0 0,55% 0,55% 100%,0 100%)}
+.review__item .rating[data-rating="2.8"]::after{clip-path:polygon(0 0,57% 0,57% 100%,0 100%)}
+.review__item .rating[data-rating="2.9"]::after{clip-path:polygon(0 0,59% 0,59% 100%,0 100%)}
+.review__item .rating[data-rating="3"]::after{clip-path:polygon(0 0,61% 0,61% 100%,0 100%)}
+.review__item .rating[data-rating="3.1"]::after{clip-path:polygon(0 0,63% 0,63% 100%,0 100%)}
+.review__item .rating[data-rating="3.2"]::after{clip-path:polygon(0 0,65% 0,65% 100%,0 100%)}
+.review__item .rating[data-rating="3.3"]::after{clip-path:polygon(0 0,67% 0,67% 100%,0 100%)}
+.review__item .rating[data-rating="3.4"]::after{clip-path:polygon(0 0,69% 0,69% 100%,0 100%)}
+.review__item .rating[data-rating="3.5"]::after{clip-path:polygon(0 0,71% 0,71% 100%,0 100%)}
+.review__item .rating[data-rating="3.6"]::after{clip-path:polygon(0 0,73% 0,73% 100%,0 100%)}
+.review__item .rating[data-rating="3.7"]::after{clip-path:polygon(0 0,75% 0,75% 100%,0 100%)}
+.review__item .rating[data-rating="3.8"]::after{clip-path:polygon(0 0,77% 0,77% 100%,0 100%)}
+.review__item .rating[data-rating="3.9"]::after{clip-path:polygon(0 0,79% 0,79% 100%,0 100%)}
+.review__item .rating[data-rating="4"]::after{clip-path:polygon(0 0,81% 0,81% 100%,0 100%)}
+.review__item .rating[data-rating="4.1"]::after{clip-path:polygon(0 0,83% 0,83% 100%,0 100%)}
+.review__item .rating[data-rating="4.2"]::after{clip-path:polygon(0 0,85% 0,85% 100%,0 100%)}
+.review__item .rating[data-rating="4.3"]::after{clip-path:polygon(0 0,87% 0,87% 100%,0 100%)}
+.review__item .rating[data-rating="4.4"]::after{clip-path:polygon(0 0,89% 0,89% 100%,0 100%)}
+.review__item .rating[data-rating="4.5"]::after{clip-path:polygon(0 0,91% 0,91% 100%,0 100%)}
+.review__item .rating[data-rating="4.6"]::after{clip-path:polygon(0 0,93% 0,93% 100%,0 100%)}
+.review__item .rating[data-rating="4.7"]::after{clip-path:polygon(0 0,95% 0,95% 100%,0 100%)}
+.review__item .rating[data-rating="4.8"]::after{clip-path:polygon(0 0,97% 0,97% 100%,0 100%)}
+.review__item .rating[data-rating="4.9"]::after{clip-path:polygon(0 0,99% 0,99% 100%,0 100%)}
+.review__item .rating[data-rating="5"]::after{clip-path:polygon(0 0,101% 0,101% 100%,0 100%)}
+.review__item .val{min-width:5rem;text-align:right}
+.review__item .val::after{content:"/5"}
+.review__list--bar .review__item .rating{position:relative;right:0;top:0;text-align:right;margin-right:1rem;display:block;width:18rem;height:.5rem}
+.review__list--bar .review__item .rating::before,.review__list--bar .review__item .rating::after{position:absolute;width:100%;height:100%;top:0;left:0;background-size:100%;border-radius:.3rem}
+.review__list--bar .review__item .rating::before{content:"";background:rgba(0,0,0,.1)}
+.review__list--bar .review__item .rating::after{content:"";background:#000}
+@media all and (max-width:1024px){.review__summary{margin-right:4rem;padding-right:4rem}
+.review__summary .summary-value{font-size:3.2rem}
+.review__summary .summary-value .value-unit::before{content:"/";font-size:2.4rem}
+.review__summary .summary-value .value-unit::after{content:"5";font-size:3.2rem}
+.review__item{font-size:1.4rem}
+.review__item .rating{font-size:1.2rem}
+}
+@media all and (max-width:767px){.review{display:block;padding:4rem 3.2rem}
+.review__summary{margin-right:0;padding-right:0;margin-bottom:4rem;padding-bottom:4rem}
+.review__summary::after{content:"";display:block;position:absolute;top:auto;right:auto;left:0;bottom:0;width:100%;height:1px}
+.review__summary .summary-value{margin-top:0}
+.review__list{max-width:40rem;margin:0 auto}
+.review__item .tit{font-size:1.4rem;margin-right:0}
+.review__item .rating::before{margin-right:1rem}
+.review__item .val{font-size:1.2rem;min-width:3.5rem}
+}
+html[dir=rtl] .review__summary{padding-right:unset;margin-right:unset;padding-left:6.6rem;margin-left:6.6rem}
+html[dir=rtl] .review__summary::after{left:0;right:unset}
+html[dir=rtl] .review__summary .rating-stars{transform:scaleX(-1)}
+html[dir=rtl] .review__item .tit{margin-right:unset;margin-left:3rem}
+html[dir=rtl] .review__item .rating{margin-right:unset;margin-left:1rem;transform:scaleX(-1)}
+html[dir=rtl] .review__item .rating::before,html[dir=rtl] .review__item .rating::after{left:unset;right:0}
+html[dir=rtl] .review__item .val{text-align:right}
+html[dir=rtl] .review__item .val::after{display:inline-block}
+html[dir=rtl] .review__list--bar .review__item .rating{margin-right:unset;margin-left:1rem;transform:scaleX(-1)}
+html[dir=rtl] .review__list--bar .review__item .rating::before,html[dir=rtl] .review__list--bar .review__item .rating::after{left:unset;right:0}
+@media all and (max-width:1024px){html[dir=rtl] .review__summary{margin-left:4rem;padding-left:4rem;margin-right:unset;padding-right:unset}
+}
+@media all and (max-width:767px){html[dir=rtl] .review__summary{margin-left:0;padding-left:0;margin-right:unset;padding-right:unset}
+html[dir=rtl] .review__item .tit{margin-right:unset;margin-left:0}
+html[dir=rtl] .review__item .rating::before{margin-right:unset;margin-left:1rem}
+}
+#view_review_all_en .close_pop{background:url(../../../../clientlibs/clientlib-local/resources/svg/icon-close.svg) no-repeat 50% 50% #f0f0f0;border-radius:50%;right:4.8rem;width:5rem;height:5rem}
+@media all and (max-width:1024px){#view_review_all_en .close_pop{right:2rem;width:4rem;height:4rem}
+}
+#view_review_all_en .pop_inner{width:90vw;max-width:115.2rem;padding-top:0}
+#view_review_all_en .pop_inner .top{height:7.6rem}
+@media all and (max-width:1024px){#view_review_all_en .pop_inner{width:100vw;height:100%;max-height:100%}
+#view_review_all_en .pop_inner .top{position:relative}
+}
+#view_review_all_en .pop_con{padding:7.6rem 4.8rem 9rem;text-align:unset;height:calc(var(--app-height, 100vh)*.9);overflow-y:scroll}
+@media all and (max-width:1024px){#view_review_all_en .pop_con{padding:0rem 3.2rem}
+}
+@media all and (max-width:767px){#view_review_all_en .pop_con{padding:0rem 2rem}
+}
+#view_review_all .pop_inner{width:90vw;max-width:115.2rem;padding-top:0}
+@media all and (max-width:1024px){#view_review_all .pop_inner{width:100vw;height:100%;max-height:100%}
+}
+#view_review_all .pop_con{padding:0rem 4.8rem 9rem;text-align:unset;height:calc( (var(--app-height, 100vh) * .9) - 7.6rem);overflow-y:scroll}
+@media all and (max-width:1024px){#view_review_all .pop_con{padding:0rem 3.2rem}
+}
+@media all and (max-width:767px){#view_review_all .pop_con{padding:0rem 2rem}
+}
+#view_review_all .top{height:7.6rem;position:relative}
+@media all and (max-width:1024px){#view_review_all .top{height:7.6rem}
+}
+#view_review_all .top .btn-close_search{position:absolute;right:4.8rem;bottom:0}
+@media all and (max-width:1024px){#view_review_all .top .btn-close_search{width:4rem;height:4rem;right:3.2rem;background:url("../../../../clientlibs/clientlib-local/resources/svg/icon-close-mobile.svg") no-repeat 50% 50% #f0f0f0;background-size:1.2rem 1.2rem}
+}
+@media all and (max-width:767px){#view_review_all .top .btn-close_search{width:4rem;height:4rem;right:2rem}
+}
+#view_review_all .number-of-result{color:#999}
+#view_review_all .review-contents-wrap{margin-top:1rem;border-top:1px solid #000}
+#view_review_all .review-contents-wrap .review-list{display:flex;flex-wrap:wrap}
+#view_review_all .review-contents-wrap .review-item{justify-content:space-between;width:100%;padding:3.6rem 0;display:flex;border-top:2px solid #00000015}
+#view_review_all .review-contents-wrap .review-item:first-child{border-top:unset}
+@media all and (max-width:1024px){#view_review_all .review-contents-wrap .review-item{padding:2.4rem 0}
+}
+@media all and (max-width:767px){#view_review_all .review-contents-wrap .review-item{flex-wrap:wrap}
+}
+#view_review_all .review-contents-wrap .score-as-star{padding:2rem 3.2rem;text-align:center;align-items:center}
+@media all and (max-width:767px){#view_review_all .review-contents-wrap .score-as-star{width:100%;display:flex;padding:unset}
+#view_review_all .review-contents-wrap .score-as-star .star{order:1;margin-top:unset;margin-right:.6rem}
+#view_review_all .review-contents-wrap .score-as-star .review-score{order:2;width:unset;margin-top:unset}
+}
+#view_review_all .review-contents-wrap .total-score{color:#999}
+#view_review_all .review-contents-wrap .total-score::after{content:"/5"}
+#view_review_all .review-contents-wrap .star{position:relative;display:flex;justify-content:center;margin-top:.6rem;display:block;width:6.4rem;height:1.2rem}
+#view_review_all .review-contents-wrap .star .star-dummy{width:1.58rem;height:1.54rem;background:#000;clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);margin-right:.4rem}
+#view_review_all .review-contents-wrap .star::before,#view_review_all .review-contents-wrap .star::after{position:absolute;width:100%;height:100%;top:0;left:0;background-size:100%}
+#view_review_all .review-contents-wrap .star::before{content:"";background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/ico_stars_gray.svg)}
+#view_review_all .review-contents-wrap .star::after{content:"";background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/ico_stars.svg)}
+#view_review_all .review-contents-wrap .star[data-rating="0"]::after{clip-path:polygon(0 0,1% 0,1% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="0.1"]::after{clip-path:polygon(0 0,3% 0,3% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="0.2"]::after{clip-path:polygon(0 0,5% 0,5% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="0.3"]::after{clip-path:polygon(0 0,7% 0,7% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="0.4"]::after{clip-path:polygon(0 0,9% 0,9% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="0.5"]::after{clip-path:polygon(0 0,11% 0,11% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="0.6"]::after{clip-path:polygon(0 0,13% 0,13% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="0.7"]::after{clip-path:polygon(0 0,15% 0,15% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="0.8"]::after{clip-path:polygon(0 0,17% 0,17% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="0.9"]::after{clip-path:polygon(0 0,19% 0,19% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1"]::after{clip-path:polygon(0 0,21% 0,21% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1.1"]::after{clip-path:polygon(0 0,23% 0,23% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1.2"]::after{clip-path:polygon(0 0,25% 0,25% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1.3"]::after{clip-path:polygon(0 0,27% 0,27% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1.4"]::after{clip-path:polygon(0 0,29% 0,29% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1.5"]::after{clip-path:polygon(0 0,31% 0,31% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1.6"]::after{clip-path:polygon(0 0,33% 0,33% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1.7"]::after{clip-path:polygon(0 0,35% 0,35% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1.8"]::after{clip-path:polygon(0 0,37% 0,37% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="1.9"]::after{clip-path:polygon(0 0,39% 0,39% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2"]::after{clip-path:polygon(0 0,41% 0,41% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2.1"]::after{clip-path:polygon(0 0,43% 0,43% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2.2"]::after{clip-path:polygon(0 0,45% 0,45% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2.3"]::after{clip-path:polygon(0 0,47% 0,47% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2.4"]::after{clip-path:polygon(0 0,49% 0,49% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2.5"]::after{clip-path:polygon(0 0,51% 0,51% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2.6"]::after{clip-path:polygon(0 0,53% 0,53% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2.7"]::after{clip-path:polygon(0 0,55% 0,55% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2.8"]::after{clip-path:polygon(0 0,57% 0,57% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="2.9"]::after{clip-path:polygon(0 0,59% 0,59% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3"]::after{clip-path:polygon(0 0,61% 0,61% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3.1"]::after{clip-path:polygon(0 0,63% 0,63% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3.2"]::after{clip-path:polygon(0 0,65% 0,65% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3.3"]::after{clip-path:polygon(0 0,67% 0,67% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3.4"]::after{clip-path:polygon(0 0,69% 0,69% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3.5"]::after{clip-path:polygon(0 0,71% 0,71% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3.6"]::after{clip-path:polygon(0 0,73% 0,73% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3.7"]::after{clip-path:polygon(0 0,75% 0,75% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3.8"]::after{clip-path:polygon(0 0,77% 0,77% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="3.9"]::after{clip-path:polygon(0 0,79% 0,79% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4"]::after{clip-path:polygon(0 0,81% 0,81% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4.1"]::after{clip-path:polygon(0 0,83% 0,83% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4.2"]::after{clip-path:polygon(0 0,85% 0,85% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4.3"]::after{clip-path:polygon(0 0,87% 0,87% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4.4"]::after{clip-path:polygon(0 0,89% 0,89% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4.5"]::after{clip-path:polygon(0 0,91% 0,91% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4.6"]::after{clip-path:polygon(0 0,93% 0,93% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4.7"]::after{clip-path:polygon(0 0,95% 0,95% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4.8"]::after{clip-path:polygon(0 0,97% 0,97% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="4.9"]::after{clip-path:polygon(0 0,99% 0,99% 100%,0 100%)}
+#view_review_all .review-contents-wrap .star[data-rating="5"]::after{clip-path:polygon(0 0,101% 0,101% 100%,0 100%)}
+#view_review_all .review-contents-wrap .review-desc{display:flex;flex-wrap:wrap;justify-content:space-between;flex:1}
+#view_review_all .review-contents-wrap .review-desc .dimmed{display:block}
+@media all and (max-width:767px){#view_review_all .review-contents-wrap .review-desc{margin-top:1.6rem}
+#view_review_all .review-contents-wrap .review-desc .review-product{width:100%;order:1}
+#view_review_all .review-contents-wrap .review-desc .review-info{width:100%;order:4;margin-top:2rem}
+#view_review_all .review-contents-wrap .review-desc .review-text{width:100%;order:2}
+#view_review_all .review-contents-wrap .review-desc .review-score{width:100%;order:3}
+}
+#view_review_all .review-contents-wrap .score-list{width:100%;display:flex}
+#view_review_all .review-contents-wrap .review-sort{margin-right:4rem;position:relative}
+@media all and (max-width:1024px){#view_review_all .review-contents-wrap .review-sort{margin-right:3.2rem}
+}
+#view_review_all .review-contents-wrap .review-sort:last-child{margin-right:unset}
+#view_review_all .review-contents-wrap .review-sort:last-child::after{display:none}
+#view_review_all .review-contents-wrap .review-sort::after{display:block;content:"";width:.1rem;height:1.1rem;background:#00000015;position:absolute;right:-2rem;top:50%;transform:translateY(-50%)}
+@media all and (max-width:1024px){#view_review_all .review-contents-wrap .review-sort::after{right:-1.6rem}
+}
+#view_review_all .review-contents-wrap .review-sort .review-sort-score{margin-left:.6rem;font-weight:300}
+#view_review_all .review-contents-wrap .reviewer{margin-right:2.4rem}
+@media all and (max-width:1024px){#view_review_all .review-contents-wrap .reviewer{margin-right:1.6rem}
+}
+#view_review_all .review-contents-wrap .review-text{width:100%;margin-top:1.2rem}
+#view_review_all .review-contents-wrap .review-text>p{padding:unset}
+@media all and (max-width:1024px){#view_review_all .review-contents-wrap .review-text{margin-top:1rem}
+}
+#view_review_all .review-contents-wrap .review-score{width:100%;margin-top:2.8rem}
+@media all and (max-width:1024px){#view_review_all .review-contents-wrap .review-score{margin-top:2rem}
+}
+#view_review_all .score-list{color:#000;font-weight:400}
+@media all and (max-width:1024px){#view_review_all .review-search-title{font-size:3.2rem;line-height:1.25;letter-spacing:-0.96px}
+}
+#view_review_all .review-search-source{display:block;padding-left:.8rem;white-space:nowrap}
+@media all and (max-width:1024px){#view_review_all .review-search-source{margin-top:.6rem}
+}
+#view_review_all .btn-wrap{margin-top:1.2rem}
+@media all and (max-width:1024px){#view_review_all .btn-wrap{margin-top:.8rem}
+}
+html[dir=rtl] #view_review_all .top .btn-close_search{right:unset;left:4.8rem}
+@media all and (max-width:1024px){html[dir=rtl] #view_review_all .top .btn-close_search{right:unset;left:3.2rem}
+}
+@media all and (max-width:767px){html[dir=rtl] #view_review_all .top .btn-close_search{right:unset;left:2rem}
+}
+html[dir=rtl] #view_review_all .review-search-source{display:block;padding-left:unset;padding-right:.8rem}
+@media all and (max-width:767px){html[dir=rtl] #view_review_all .review-contents-wrap .score-list{flex-wrap:wrap;row-gap:.6rem}
+}
+@media all and (max-width:767px){html[dir=rtl] #view_review_all .review-contents-wrap .score-as-star .star{margin-right:unset;margin-left:.6rem}
+}
+html[dir=rtl] #view_review_all .review-contents-wrap .star::after{transform:scaleX(-1)}
+html[dir=rtl] #view_review_all .review-contents-wrap .review-date,html[dir=rtl] #view_review_all .review-contents-wrap .reviewer{display:inline-block}
+html[dir=rtl] #view_review_all .review-contents-wrap .reviewer{margin-right:unset;margin-left:2.4rem}
+@media all and (max-width:1024px){html[dir=rtl] #view_review_all .review-contents-wrap .reviewer{margin-left:1.6rem}
+}
+html[dir=rtl] #view_review_all .review-contents-wrap .review-sort{margin-right:unset;margin-left:4rem}
+@media all and (max-width:1024px){html[dir=rtl] #view_review_all .review-contents-wrap .review-sort{margin-left:3.2rem}
+}
+html[dir=rtl] #view_review_all .review-contents-wrap .review-sort::after{display:none}
+html[dir=rtl] #view_review_all .review-contents-wrap .review-sort::before{display:block;content:"";width:.1rem;height:1.1rem;background:#00000015;position:absolute;top:50%;transform:translateY(-50%);left:-2rem}
+@media all and (max-width:1024px){html[dir=rtl] #view_review_all .review-contents-wrap .review-sort::before{left:-1.6rem}
+}
+html[dir=rtl] #view_review_all .review-contents-wrap .review-sort:last-child{margin-left:0;margin-right:unset}
+html[dir=rtl] #view_review_all .review-contents-wrap .review-sort:last-child::before{display:none}
+html[dir=rtl] #view_review_all .review-contents-wrap .review-sort .review-sort-score{margin-left:unset;margin-right:.6rem}
+.tire_rating_review_wrap{display:block}
+.tire_rating_review_wrap .inner{display:flex;justify-content:center;background-color:#f5f5f5;padding:8rem}
+.tire_rating_review_wrap .inner .inner_head{position:relative;text-align:center;padding-right:6.6rem;margin-right:6.6rem;display:flex;align-items:center}
+.tire_rating_review_wrap .inner .inner_head .title{display:none}
+.tire_rating_review_wrap .inner .inner_head .desc{display:none}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__container{display:flex;flex-direction:column-reverse;justify-content:center;align-items:center}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__star{width:2.6rem;font-size:3.2rem;color:rgba(0,0,0,.3)}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__star--full{color:#000}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__star--partial:after{color:#000}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__stars{order:3}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__rating-value{order:4;position:relative;margin-bottom:2rem;font-size:4rem;height:3rem;font-weight:600;color:#000}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__rating-value::after{position:absolute;top:0;right:0;height:3rem;content:"/5";color:#9e9e9e}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__rating-count{order:2;font-family:"HankookMain";font-weight:500;display:block;color:#000;margin-top:3rem;white-space:nowrap;height:3.8rem;font-size:1.3rem;line-height:3.8rem;padding:0 2.4rem;border-radius:2rem;text-align:center;min-width:10.4rem;margin-left:unset}
+@media(min-width:64.0625em){.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__rating-count{font-size:1.4rem;height:4rem;line-height:4rem}
+}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__rating-count a{color:inherit;display:block;width:100%;height:100%;text-decoration:underline;text-underline-position:under}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__powered-by-logo{display:none;order:1}
+.tire_rating_review_wrap .inner .inner_head::after{content:"";display:block;position:absolute;top:0;right:0;width:1px;height:100%;background:rgba(0,0,0,.1)}
+.tire_rating_review_wrap .inner .inner_head .pop_btn{margin-top:3rem;white-space:nowrap}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget{margin:0}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__container{display:flex;flex-direction:column;justify-content:center}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__question-element{display:flex;justify-content:space-between;align-items:center}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__question-element+.driverreviews-widget__question-element{margin:14px 0 0}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__question-text{font-size:1.6rem;font-weight:100;text-overflow:ellipsis;margin-right:3rem}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__question-rating-value{font-size:1.6rem;min-width:5rem;text-align:right;font-weight:100;color:#000}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__stars{margin-right:1rem}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__star{width:1.3rem;font-size:1.5rem;color:rgba(0,0,0,.3)}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__star--full{color:#000}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__star--partial:after{color:#000}
+@media all and (max-width:1024px){.tire_rating_review_wrap .inner .inner_head{padding-right:4rem;margin-right:4rem}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__rating-value{height:2.5rem;font-size:3.2rem}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__question-text{font-size:1.4rem}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__question-rating-value{font-size:1.4rem}
+}
+@media all and (max-width:767px){.tire_rating_review_wrap .inner{padding:4rem 3.2rem;flex-direction:column}
+.tire_rating_review_wrap .inner .inner_head{display:flex;justify-content:center;padding-bottom:4rem;padding-right:unset;margin-bottom:4rem;margin-right:unset}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__rating-value{line-height:1rem;font-size:3.2rem}
+.tire_rating_review_wrap .inner .inner_head .driverreviews-widget__star{line-height:2.5rem}
+.tire_rating_review_wrap .inner .inner_head::after{content:"";display:block;position:absolute;top:100%;right:0;width:100%;height:1px;background:rgba(0,0,0,.1)}
+.tire_rating_review_wrap .inner .inner_body{max-width:40rem;width:100%;margin:0 auto}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__question-text{width:100%;font-size:1.4rem;margin-right:0}
+.tire_rating_review_wrap .inner .inner_body .driverreviews-widget__question-rating-value{min-width:3.5rem;font-size:1.2rem}
+}
+html[dir=rtl] .driverreviews-widget__star--partial:after{right:0}
+html[dir=rtl] .tire_rating_review_wrap .inner .inner_head .driverreviews-widget__rating-value::after{content:"5/"}
+html[dir=rtl] .tire_rating_review_wrap .inner .inner_head{margin-right:unset;padding-right:unset;margin-left:6.6rem;padding-left:6.6rem}
+html[dir=rtl] .tire_rating_review_wrap .inner .inner_body .driverreviews-widget__question-text{margin-right:unset;margin-left:3rem}
+html[dir=rtl] .tire_rating_review_wrap .inner .inner_body .driverreviews-widget__stars{margin-right:unset;margin-left:1rem}
+html[dir=rtl] .tire_rating_review_wrap .inner .inner_head::after{right:unset;left:0}
+.ltdsr.ltdsrp .l-accordion-h{padding:3.8rem 0;text-transform:capitalize;text-align:center;cursor:pointer}
+.ltdsr.ltdsrp .l-accordion-h::after{content:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-base/resources/svg/w_arrow_roof.svg");display:inline-block;position:relative;margin-left:2rem;transform:rotateZ(180deg);top:10px}
+.ltdsr.ltdsrp .l-accordion-h.active::after{transform:rotateZ(0);top:0}
+.ltdsr.ltdsrp .l-accordion-body{display:none}
+.ltdsr.ltdsrp .l-accordion>li{border-top:1px solid rgba(0,0,0,.1)}
+@media all and (max-width:1024px){.ltdsr.ltdsrp .l-accordion-h{font-size:3.2rem}
+.ltdsr.ltdsrp .l-accordion-h::after{content:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-base/resources/svg/m_arrow_roof.svg");top:0}
+}
+.ltdsr.ltdsrp .tab{display:inline-block;color:rgba(0,0,0,.4);transition:color .2s}
+.ltdsr.ltdsrp .tabs{text-align:center;margin-bottom:2rem}
+.ltdsr.ltdsrp .tab::after{content:"";display:block;border-bottom:1px solid #000;width:0;transition:width .2s}
+.ltdsr.ltdsrp .tab.active,.ltdsr.ltdsrp .tab:hover{color:#000}
+.ltdsr.ltdsrp .tab.active::after,.ltdsr.ltdsrp .tab:hover::after{width:100%}
+.ltdsr.ltdsrp .tab+.tab{margin-left:4rem}
+.ltdsr.ltdsrp .tab-body{display:none}
+.ltdsr.ltdsrp .tab-body.active{display:block}
+@media all and (max-width:1024px){.ltdsr.ltdsrp .tab{font-size:1.8rem;flex-shrink:0}
+.ltdsr.ltdsrp .tabs{margin-bottom:4rem;display:flex;overflow-x:auto;flex-wrap:nowrap}
+.ltdsr.ltdsrp .tabs .tab:first-child{margin-left:auto}
+.ltdsr.ltdsrp .tabs .tab:last-child{margin-right:auto}
+.ltdsr.ltdsrp .tab+.tab{margin-left:2rem}
+}
+.ltdsr.ltdsrp .spec-accordion>li{border-bottom:1px solid rgba(0,0,0,.1)}
+.ltdsr.ltdsrp .spec-accordion>li:last-child{border-bottom:0}
+.ltdsr.ltdsrp .accordion-top{position:relative;padding:3.4rem 0;font-size:2rem;font-weight:500;cursor:pointer}
+.ltdsr.ltdsrp .accordion-top.highlighted{color:#ea6018}
+.ltdsr.ltdsrp .accordion-top .btn{position:absolute;top:50%;right:6.5rem;transform:translateY(-50%)}
+.ltdsr.ltdsrp .accordion-top::after{content:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/plus-icon.svg");position:absolute;right:1.6rem;top:50%;transform:translateY(-50%)}
+.ltdsr.ltdsrp .accordion-top.active::after{content:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/minus-icon.svg")}
+.ltdsr.ltdsrp .accordion-body{display:none;padding-bottom:6rem}
+@media all and (max-width:1024px){.ltdsr.ltdsrp .accordion-top{padding:2.6rem 0;font-size:1.4rem}
+}
+.ltdsr.ltdsrp .spec{display:flex;justify-content:space-between;width:33.3333333333%;padding-left:3.4rem;padding-right:3.4rem}
+.ltdsr.ltdsrp .specs{display:flex;flex-wrap:wrap;margin-left:-3.4rem;margin-right:-3.4rem}
+.ltdsr.ltdsrp .spec .dt,.ltdsr.ltdsrp .spec .dd{font-size:1.4rem;padding:1.4rem 0;border-bottom:1px solid rgba(0,0,0,.1)}
+.ltdsr.ltdsrp .spec .dt{flex:1;font-weight:500}
+.ltdsr.ltdsrp .spec .dd{color:#666}
+@media all and (max-width:1024px){.ltdsr.ltdsrp .spec{width:50%}
+.ltdsr.ltdsrp .spec .dt,.ltdsr.ltdsrp .spec .dd{font-size:1.3rem}
+}
+@media all and (max-width:767px){.ltdsr.ltdsrp .spec{width:100%}
+}
+html[dir=rtl] .ltdsr.ltdsrp .l-accordion-h::after{margin-left:unset;margin-right:2rem}
+html[dir=rtl] .ltdsr.ltdsrp .tabs .tab:first-child{margin-left:unset;margin-right:auto}
+html[dir=rtl] .ltdsr.ltdsrp .tabs .tab:last-child{margin-left:auto}
+html[dir=rtl] .ltdsr.ltdsrp .tab+.tab{margin-left:unset;margin-right:4rem}
+@media all and (max-width:1024px){html[dir=rtl] .ltdsr.ltdsrp .tab+.tab{margin-right:2rem}
+}
+html[dir=rtl] .ltdsr.ltdsrp .accordion-top .btn{right:unset;left:6.5rem}
+html[dir=rtl] .ltdsr.ltdsrp .accordion-top::after{right:unset;left:1.6rem}

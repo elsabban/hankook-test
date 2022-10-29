@@ -1,0 +1,25 @@
+.gcm .map-api-wrap{position:relative;padding-top:37.5%}
+.gcm .map-api{position:absolute;top:0;left:0;width:100%;height:100%}
+.gcm picture{width:100%}
+.gcm picture img{width:100%}
+.gcm .address{margin:6.4rem auto 0;max-width:93.6rem}
+.gcm .address h2{padding-bottom:2.4rem;border-bottom:1px solid rgba(0,0,0,.15)}
+.gcm .address .address-wrap{margin-top:2rem}
+.gcm .address .address-wrap .address-item{margin-top:2.8rem;display:flex}
+.gcm .address .address-wrap .address-item.txt-center{justify-content:center}
+.gcm .address .address-wrap .address-item.txt-right{justify-content:right}
+.gcm .address .address-wrap .address-item:first-child{margin-top:unset}
+.gcm .address .address-wrap .address-item p{padding-left:1.6rem}
+.gcm .address .address-wrap .address-item img{width:3.2rem;height:3.2rem}
+@media all and (max-width:1024px){.gcm .map-api-wrap{padding-top:57.5284%}
+.gcm .address{margin-top:3.6rem}
+.gcm .address h2{padding-bottom:2rem}
+.gcm .address .address-wrap{margin-top:1.8rem}
+.gcm .address .address-wrap .address-item{margin-top:2rem}
+.gcm .address .address-wrap .address-item img{width:2.4rem;height:2.4rem}
+}
+@media all and (max-width:767px){.gcm .map-api-wrap{padding-top:57.7143%}
+.gcm .address{margin-top:3.2rem}
+.gcm .address .address-wrap .address-item{margin-top:1.8rem}
+}
+html[dir=rtl] .gcm .address .address-wrap .address-item p{padding-left:unset;padding-right:1.6rem}

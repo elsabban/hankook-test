@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Button_-_Find_a_Store" data-name="Button - Find a Store" transform="translate(-282 -122)">
+        <g id="Icon_-_find_a_store" data-name="Icon - find a store" transform="translate(-48 -1)">
+            <g id="icon_find_a_dealer" data-name="icon_find a dealer" transform="translate(327.25 120)">
+                <circle id="타원_78" data-name="타원 78" class="cls-2" cx="2.415" cy="2.415" r="2.415" transform="translate(20.335 17.585)"/>
+                <path id="패스_45575" data-name="패스 45575" class="cls-2" d="M31.288 17.146A8.994 8.994 0 0 1 31.75 20c0 5.927-3.732 8.561-9 13.829-5.268-5.268-9-7.9-9-13.829a9 9 0 0 1 15.15-6.574"/>
+            </g>
+        </g>
+    </g>
+</svg>

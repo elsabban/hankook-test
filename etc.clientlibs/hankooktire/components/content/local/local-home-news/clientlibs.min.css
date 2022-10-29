@@ -1,0 +1,21 @@
+.lhn{padding:8rem 0 0;margin:0 auto;overflow:hidden}
+.lhn__wrap{position:relative}
+.lhn .title{font-size:2.8rem;font-weight:600;letter-spacing:-0.02rem;padding-bottom:1.8rem}
+.lhn .swiper-nav{display:none}
+.lhn__item{width:28rem}
+.lhn__item:hover a img{transform:scale(1.1)}
+.lhn__item .img-wrapper{overflow:hidden}
+.lhn__item img{width:100%;transition:all .6s}
+.lhn__item .content{padding:1.6rem 0}
+.lhn__item .content .category{font-size:1.3rem}
+.lhn__item .content .subhead{font-size:1.6rem;font-weight:500;line-height:1.3;letter-spacing:-0.01em;margin:.8rem 0 1.6rem;width:94%}
+.lhn__item .content .date{color:#666;font-size:1.1rem}
+@media(min-width:64.0625em){.lhn{padding:10rem 0 0}
+.lhn .title{font-size:4.8rem;letter-spacing:-0.01rem;padding-bottom:3.2rem}
+.lhn-swiper{overflow:hidden}
+.lhn .swiper-nav{display:flex;position:absolute;top:0;right:0}
+.lhn .content{padding:1.8rem 0}
+.lhn .content .subhead{font-size:2.4rem;line-height:1.2;margin:1rem 0 1.6rem}
+.lhn .content .date{font-size:1.3rem}
+}
+html[dir=rtl] .lhn .swiper-nav{left:0;right:unset}

@@ -1,0 +1,9 @@
+.lcdqu .inner-content{padding:0;max-width:93.6rem;margin:0 auto;background-color:rgba(0,0,0,0.04);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;text-align:center}
+.lcdqu .inner-content .text-wrap{padding:10%}
+.lcdqu .inner-content p{width:100%}
+@media all and (min-width:1025px){.lcdqu .mail-link{position:relative}
+.lcdqu .mail-link::after{content:"";display:block;width:0;height:1px;background-color:black;position:absolute;bottom:0;left:0;transition:width .3s}
+.lcdqu .mail-link:hover::after{width:100%}
+}
+.lcdqu .font_body_1{margin-top:1.2rem}
+html[dir=rtl] .lcdqu .mail-link::after{left:unset;right:0}

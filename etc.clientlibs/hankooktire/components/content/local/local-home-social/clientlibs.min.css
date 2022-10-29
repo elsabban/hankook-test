@@ -1,0 +1,21 @@
+.lhs{overflow:hidden}
+.lhs .title{margin-bottom:4.8rem;font-weight:500}
+@media all and (max-width:1024px){.lhs .title{margin-bottom:4rem;text-align:center}
+}
+.lhs .title span{color:#666}
+.lhs__item{overflow:hidden;width:36rem;height:36rem}
+.lhs__item:after{content:"";position:absolute;top:1rem;right:1rem;width:4rem;height:4rem;background:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-base/resources/svg/c_social_instagram.svg) no-repeat center/contain}
+.lhs__item[data-social-type=instagram]:after{background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-base/resources/svg/c_social_instagram.svg)}
+.lhs__item[data-social-type=youtube]:after{background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-base/resources/svg/c_social_youtube.svg)}
+.lhs__item[data-social-type=facebook]:after{background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-base/resources/svg/c_social_facebook.svg)}
+.lhs__item[data-social-type=weibo]:after{background-image:url(../../../../clientlibs/clientlib-base/resources/svg/c_ic_weibo.svg)}
+.lhs__item[data-social-type=wechat]:after{background-image:url(../../../../clientlibs/clientlib-base/resources/svg/c_ic_wechat.svg)}
+.lhs__item[data-social-type=vk]:after{background-image:url(../../../../clientlibs/clientlib-base/resources/svg/c_ic_vk.svg)}
+@media all and (max-width:1024px){.lhs__item{width:19.5rem;height:19.5rem}
+}
+.lhs__item a{display:block;height:100%;background:no-repeat 50% 50%;background-size:cover;transition:transform .6s}
+@media all and (min-width:1024px){.lhs__item:hover a{transform:scale(1.1)}
+}
+.lhs .lhs__mobile_list ul{display:flex;flex-wrap:wrap}
+.lhs .lhs__mobile_list ul li{width:50%;height:0;padding-bottom:50%}
+html[dir=rtl] .lhs__item:after{right:unset;left:1rem}

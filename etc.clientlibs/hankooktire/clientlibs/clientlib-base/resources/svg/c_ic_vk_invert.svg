@@ -1,0 +1,12 @@
+<svg id="icon_vk" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <path id="패스_62368" data-name="패스 62368" d="M11.978,13.725C4.462,13.725.176,8.582,0,.011H3.78C3.9,6.3,6.67,8.956,8.868,9.505V.011h3.549V5.429c2.165-.231,4.451-2.7,5.22-5.429h3.538a10.476,10.476,0,0,1-4.813,6.846A10.845,10.845,0,0,1,22,13.725H18.1a6.78,6.78,0,0,0-5.681-4.9v4.9h-.44Z" transform="translate(1 6)"/>
+  <rect id="사각형_14058" data-name="사각형 14058" class="cls-1" width="24" height="24"/>
+</svg>

@@ -1,0 +1,8 @@
+.ltdc{position:relative}
+.ltdc__slogan{position:absolute;width:100%;left:50%;bottom:11%;transform:translate(-50%,0);color:#fff;text-align:center;padding:0 10%}
+@media all and (max-width:1366px){.ltdc__slogan{bottom:14%}
+}
+@media all and (max-width:1024px){.ltdc__slogan{padding:0 4.1667vw;bottom:10%;font-size:2.8rem !important}
+}
+@media all and (max-width:767px){.ltdc__slogan{padding:0 max(5.1282vw,2rem);bottom:13%}
+}

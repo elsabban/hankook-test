@@ -1,0 +1,33 @@
+.popup_base.where_to_buy{z-index:9999}
+.popup_base.where_to_buy .pop_inner{padding-top:0;width:auto}
+.popup_base.where_to_buy .pop_inner .pop_con{display:flex;padding:0;text-align:left;width:calc(100vw - (7rem + 7rem));height:calc(100vh - (7rem + 7rem));max-width:1440px;overflow:hidden}
+.popup_base.where_to_buy .pop_inner .text-position{padding-bottom:1.4rem !important}
+.popup_base.where_to_buy .pop_inner .close_pop{position:absolute;top:3.2rem;right:3.2rem;width:5rem;height:5rem;background:#f0f0f0 url(../../../../clientlibs/clientlib-local/resources/svg/icon-close.svg) no-repeat center;border-radius:50%;z-index:1;font-size:0}
+.popup_base.where_to_buy .pop_inner .desc{padding:0 0 4rem 3.2rem}
+.popup_base.where_to_buy .pop_inner .fs-container{position:relative;order:1;height:auto}
+.popup_base.where_to_buy .pop_inner .fs{width:auto;height:100%}
+.popup_base.where_to_buy .pop_inner .side-menu-container{display:flex;flex-direction:column;justify-content:stretch;height:calc(100vh - (7rem + 7rem))}
+.popup_base.where_to_buy .pop_inner .map-position{flex:1}
+.popup_base.where_to_buy .pop_inner .map-position .no-info-container{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;text-align:center}
+.popup_base.where_to_buy .pop_inner .map-position .no-info-container::before{content:"";display:inline-block;position:relative;width:4rem;height:4rem;background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/c_search_lg.svg);margin-bottom:2.4rem}
+@media all and (max-width:1024px){.popup_base.where_to_buy .pop_inner .map-position .no-info-container{transform:translate(-50%,0)}
+}
+.popup_base.where_to_buy .pop_inner .map-position .no-info-msg{color:#666 !important}
+.popup_base.where_to_buy .pop_inner .pg-container{border-top:1px solid rgba(0,0,0,.1);padding:1.5rem 3.2rem}
+.popup_base.where_to_buy .fs__side-menu__contents .contents-wrapper .side-menu-container .map-position .detail__info .info-container .inner-contents-container{align-items:unset}
+@media all and (max-width:1024px){.popup_base.where_to_buy .pop_inner{top:calc(50% + 11.6rem - 7rem)}
+.popup_base.where_to_buy .pop_inner .pop_con{display:block;width:calc(100vw - 6.4rem);height:calc(100vh - (11.6rem + 7rem))}
+.popup_base.where_to_buy .pop_inner .close_pop{right:50%;top:-4rem;width:4.6rem;height:4.6rem;transform:translate(50%,-50%)}
+.popup_base.where_to_buy .pop_inner .text-position{padding-bottom:.5rem !important}
+.popup_base.where_to_buy .pop_inner .desc{text-align:center;padding:0 0 3.6rem}
+.popup_base.where_to_buy .pop_inner .side-menu-container{height:calc(100vh - (11.6rem + 7rem))}
+.popup_base.where_to_buy .pop_inner .fs-container{height:21.3rem;top:0}
+.popup_base.where_to_buy .pop_inner .map-position{position:relative;top:0;overflow:auto}
+.popup_base.where_to_buy .pop_inner .mobile-map-container{top:0 !important}
+}
+@media all and (max-width:767px){.popup_base.where_to_buy .pop_inner{top:calc(50% + 11rem - 7rem)}
+.popup_base.where_to_buy .pop_inner .pop_con{width:calc(100vw - 4rem);height:calc(100vh - (11rem + 7rem))}
+.popup_base.where_to_buy .pop_inner .side-menu-container{height:calc(100vh - (11rem + 7rem))}
+.popup_base.where_to_buy .pop_inner .side-menu-container .map-position .detail__info{margin-bottom:0}
+}
+#localWhereToBuyUs_googleMap{height:100%;width:100%;position:absolute;top:0;left:0;z-index:1000}

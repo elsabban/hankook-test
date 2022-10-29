@@ -1,0 +1,12 @@
+.lbta-wrapper{width:80%;margin:auto}
+@media all and (max-width:1024px){.lbta-wrapper{width:100%}
+}
+.lbta-desc__tit{margin-bottom:0rem}
+.lbta-desc .subdesc-included{margin-bottom:40px}
+.lbta-desc .lbta-desc__subdesc{max-width:80rem}
+@media all and (max-width:1024px){.lbta-desc{width:68.2%}
+.lbta-desc__tit{margin-bottom:0rem;line-height:1.33}
+.lbta-desc .subdesc-included{margin-bottom:calc(40px / 2)}
+}
+@media all and (max-width:767px){.lbta-desc{width:100%}
+}

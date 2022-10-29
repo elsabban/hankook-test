@@ -1,0 +1,59 @@
+.lbdp{font-family:"HankookMain",sans-serif;font-weight:400;font-size:16px;letter-spacing:-0.01em;overflow:hidden;background:#fff;z-index:10;padding:140px 0}
+.lbdp *{padding:0;margin:0;box-sizing:border-box;text-decoration:none;color:inherit;font-family:inherit}
+.lbdp .__font-en{font-family:"Hankook",sans-serif}
+.lbdp .__color-white{color:#fff}
+.lbdp .__font-w600{font-weight:600}
+.lbdp .__font-w500{font-weight:500}
+.lbdp .__txt{position:relative;display:block;line-height:1.22222;padding:.1em .1em}
+.lbdp .__txt:before{content:attr(data-text);opacity:0}
+.lbdp .__txt .__mask{padding:.1em .1em;position:absolute;top:0;right:0;width:100%;will-change:width,clip-path,-webkit-clip-path}
+.lbdp .__container{max-width:1440px;margin:0 auto;width:91.66vw}
+@media screen and (max-width:767px){.lbdp .__container{width:100vw;box-sizing:border-box;padding:0 2rem}
+}
+.lbdp .__btn-arrow{display:flex;align-items:center}
+.lbdp .__btn-arrow:after{width:2em;min-width:2em;height:2em;background:#fff url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-global/resources/svg/arrow.svg) 50% 50% no-repeat;background-size:1em 1em;border-radius:50%;margin-left:.75em;content:"";margin-top:-0.125em}
+.lbdp .__btn-arrow.__dark:after{background-color:rgba(0,0,0,.05)}
+@media screen and (max-width:767px){.lbdp .__btn-arrow{font-size:14px}
+}
+@media screen and (max-width:1200px){.lbdp{padding:120px 0}
+}
+@media screen and (max-width:1024px){.lbdp{padding:100px 0}
+}
+@media screen and (max-width:767px){.lbdp{padding:80px 0}
+}
+.lbdp .__lineup{margin:0 auto;box-sizing:border-box}
+.lbdp .__lineup-header{display:flex;align-items:center;margin-bottom:40px}
+@media screen and (max-width:767px){.lbdp .__lineup-header{margin-bottom:20px}
+}
+.lbdp .__lineup-header .__title{font-weight:600;font-size:48px;margin-right:auto}
+@media screen and (max-width:767px){.lbdp .__lineup-header .__title{font-size:24px}
+}
+.lbdp .__lineup-header a span{font-weight:500}
+.lbdp .__lineup-header .__more{display:flex;font-size:16px}
+@media screen and (max-width:767px){.lbdp .__lineup-header .__more{font-size:14px}
+}
+.lbdp .__list .tire-item{width:100%}
+.lbdp .__list .swiper{overflow:visible}
+.lbdp .__list .swiper .swiper-slide{width:280px}
+.lbdp .__list-item .__top{background-color:rgba(0,0,0,.04);margin-bottom:16px;position:relative}
+.lbdp .__list-item .__top .__badge{padding:20px;display:flex;flex-direction:column;align-items:flex-end;gap:14px;position:absolute;top:0;left:0;right:0;z-index:2}
+.lbdp .__list-item .__top .__badge span svg{display:block}
+.lbdp .__list-item .__top .__badge span svg path{fill:#040000;transition:fill 300ms}
+.lbdp .__list-item .__top .__badge span.__new{position:absolute;top:10px;left:10px}
+.lbdp .__list-item .__top .__badge span.__new .__txt path{fill:#fff}
+.lbdp .__list-item .__top .__img{position:relative}
+.lbdp .__list-item .__top .__img img{display:block;width:100%}
+.lbdp .__list-item .__top .__img .__over{position:absolute;top:0;left:0;opacity:0;transition:opacity 400ms ease;will-change:opacity}
+.lbdp .__list-item .__bottom .__logo{font-size:12px;color:#888;margin-bottom:1.2em}
+.lbdp .__list-item .__bottom .__logo img{display:block;height:2.3333333333em;margin-bottom:.25em}
+.lbdp .__list-item .__bottom .__tags{display:flex;flex-wrap:wrap;gap:6px;font-size:14px}
+@media screen and (max-width:767px){.lbdp .__list-item .__bottom .__tags{font-size:12px}
+}
+.lbdp .__list-item .__bottom .__tags span{display:block;border:1px solid #ccc;border-radius:2em;padding:.4em .8em;color:#666}
+.lbdp .__list-item .__bottom .__desc{color:#444;line-height:1.4;margin-bottom:1.2em;font-size:16px}
+@media screen and (max-width:767px){.lbdp .__list-item .__bottom .__desc{font-size:14px}
+}
+.lbdp .__list-item:hover .__top .__badge svg path{fill:#fff}
+.lbdp .__list-item:hover .__top .__badge .__new .__txt path{fill:#040000}
+.lbdp .__list-item:hover .__top .__img .__over{opacity:1}
+html[dir=rtl] .lbdp .__lineup-header .__title{margin-left:auto;margin-right:unset}

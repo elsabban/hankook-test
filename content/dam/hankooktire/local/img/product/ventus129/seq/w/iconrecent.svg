@@ -1,0 +1,37 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_13287" data-name="사각형 13287" class="cls-1" width="23.563" height="26"/>
+    </clipPath>
+  </defs>
+  <rect id="사각형_11997" data-name="사각형 11997" class="cls-2" width="40" height="40"/>
+  <g id="Icon-2" data-name="Icon" transform="translate(8 7)">
+    <g id="그룹_10850" data-name="그룹 10850" class="cls-3">
+      <path id="패스_55112" data-name="패스 55112" class="cls-4" d="M7.259,22.441A11.316,11.316,0,1,1,22.44,7.259"/>
+      <path id="패스_55113" data-name="패스 55113" class="cls-4" d="M6.482,12.573h5.847V6.726"/>
+      <path id="패스_55114" data-name="패스 55114" class="cls-4" d="M11.841,22.563h7.311a3.411,3.411,0,0,0,3.411-3.411V13.536"/>
+      <path id="패스_55115" data-name="패스 55115" class="cls-4" d="M14.277,20.127l-2.436,2.436L14.277,25"/>
+    </g>
+  </g>
+</svg>

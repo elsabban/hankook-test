@@ -1,0 +1,59 @@
+.lctek>div:first-child>div:first-child{margin-top:unset}
+.lctek .text-wrap{margin-top:4.8rem}
+@media all and (max-width:1024px){.lctek .text-wrap{margin-top:3.2rem}
+}
+.lctek .margin-lg{margin-top:12.8rem}
+@media all and (max-width:1024px){.lctek .margin-lg{margin-top:7.2rem}
+}
+@media all and (max-width:767px){.lctek .margin-lg{margin-top:5.6rem}
+}
+.lctek .desc-box{margin-top:2.4rem}
+@media all and (max-width:1024px){.lctek .desc-box{margin-top:1.6rem}
+}
+.lctek .dotted-list ul li span{display:inline-block;position:relative;padding-left:1rem}
+.lctek .dotted-list ul li span::before{position:absolute;display:inline-block;content:"•";left:0;top:0;height:100%}
+.lctek .list-box ul{padding:3rem}
+.lctek .img-wrap{margin-top:4.8rem}
+@media all and (max-width:1024px){.lctek .img-wrap{margin-top:3.2rem}
+}
+.lctek .table-wrap{margin-top:4.8rem}
+@media all and (max-width:1024px){.lctek .table-wrap{margin-top:3.2rem}
+}
+.lctek .table-wrap.margin-sm{margin-top:2.4rem}
+@media all and (max-width:1024px){.lctek .table-wrap.margin-sm{margin-top:1.6rem}
+}
+@media all and (max-width:767px){.lctek .table-wrap{overflow-x:scroll}
+.lctek .table-wrap table{min-width:70.4rem}
+}
+.lctek .table-wrap table{width:100%}
+.lctek .table-wrap th{font-weight:400;background-color:#00000003;border-top:1px solid #000;padding:1.5rem}
+@media all and (max-width:1024px){.lctek .table-wrap th{padding:1rem}
+}
+.lctek .table-wrap td{padding:1.5rem;border-left:1px solid #00000015}
+@media all and (max-width:1024px){.lctek .table-wrap td{padding:1rem}
+}
+.lctek .table-wrap td.sort{border-left:0}
+.lctek .table-wrap tr{border-bottom:1px solid #00000015}
+.lctek .desc-caption,.lctek .sub-title+.sub-desc{display:block;margin-top:1.6rem}
+@media all and (max-width:1024px){.lctek .desc-caption,.lctek .sub-title+.sub-desc{margin-top:1.2rem}
+}
+.lctek .free-colored th,.lctek .free-colored td,.lctek .free-colored tr,.lctek .free-resistence th,.lctek .free-resistence td,.lctek .free-resistence tr{background:unset;padding:unset;border:unset}
+.lctek .free-colored{font-weight:400}
+.lctek .free-colored-title{font-size:1.8rem}
+@media all and (max-width:table){.lctek .free-colored-title{font-size:1.6rem}
+}
+.lctek .free-colored tr:nth-child(2n){background-color:#92e1f1}
+.lctek .free-colored tr td:nth-child(2){font-weight:500}
+.lctek .free-resistence th{background-color:#fef1e8;padding:1rem 2rem;color:#ed6707}
+.lctek .free-resistence th:not(:first-child){border-left:1px solid #000}
+.lctek .free-resistence tr{border-bottom:1px solid #000}
+.lctek .free-resistence td{padding:.6rem 2rem}
+.lctek .free-resistence td:not(:first-child){border-left:1px solid}
+html[dir=rtl] .lctek .dotted-list ul li span{padding-left:unset;padding-right:1rem}
+html[dir=rtl] .lctek .dotted-list ul li span::before{right:0}
+html[dir=rtl] .lctek .table-wrap td{border-left:unset;border-right:1px solid #00000015}
+html[dir=rtl] .lctek .table-wrap td.sort{border-right:unset}
+html[dir=rtl] .lctek .free-resistence th:not(:first-child){border-left:unset}
+html[dir=rtl] .lctek .free-resistence th:not(:last-child){border-left:1px solid #000}
+html[dir=rtl] .lctek .free-resistence td:not(:first-child){border-left:unset}
+html[dir=rtl] .lctek .free-resistence td:not(:last-child){border-left:1px solid #000;border-right:unset}

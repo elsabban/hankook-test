@@ -1,0 +1,36 @@
+.lws{padding:12.8rem 0 19.2rem;background:rgba(0,0,0,.03)}
+.lws .swiper-inner{width:100%;margin-top:9.6rem;position:relative}
+.lws .swiper-inner .swiper-button-next,.lws .swiper-inner .swiper-button-prev{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);margin:0}
+.lws .swiper-inner .swiper-button-prev{margin-left:-90rem}
+.lws .swiper-inner .swiper-button-next{margin-left:90rem}
+.lws .swiper-inner .swiper-slide{width:min(90%,144rem);position:relative}
+.lws .swiper-inner .swiper-slide>div{width:100%;padding-top:50%}
+.lws .swiper-inner .swiper-slide>div .pic{position:absolute;width:100%;height:100%;top:0;left:0}
+.lws .swiper-inner .swiper-slide>div .pic .video-wrap{width:100%;height:100%}
+.lws .swiper-inner .swiper-slide>div .pic video,.lws .swiper-inner .swiper-slide>div .pic img,.lws .swiper-inner .swiper-slide>div .pic iframe{width:100%;height:100%;object-fit:cover}
+.lws .txt-wrap{color:#000;padding-left:35%}
+.lws .txt-wrap dt{font-size:5.6rem;font-weight:bold;line-height:7rem;letter-spacing:-0.056rem}
+.lws .txt-wrap dd{margin-top:3.2rem;font-size:1.8rem;font-weight:300;line-height:3rem;letter-spacing:-0.054rem}
+.lws .txt-wrap dd p:first-child{margin-bottom:3.2rem;font-size:2.8rem;font-weight:bold;line-height:4rem;letter-spacing:-0.056rem}
+@media all and (max-width:1920px){.lws .swiper-inner .swiper-button-prev{margin-left:-47vw}
+.lws .swiper-inner .swiper-button-next{margin-left:47vw}
+}
+@media all and (max-width:1024px){.lws{padding:7.2rem 0 6.4rem}
+.lws .swiper-inner{margin-top:3.6rem}
+.lws .swiper-inner .swiper-button-prev{margin-left:calc(-50vw + 4.6rem)}
+.lws .swiper-inner .swiper-button-next{margin-left:calc(50vw - 4.6rem)}
+.lws .txt-wrap{padding-left:32%}
+.lws .txt-wrap dt{font-size:2.4rem;line-height:3.2rem;letter-spacing:-0.024rem}
+.lws .txt-wrap dd{margin-top:1.6rem;font-size:1.4rem;line-height:2.4rem;letter-spacing:-0.049rem}
+.lws .txt-wrap dd p:first-child{margin-bottom:1.6rem;font-size:1.8rem;line-height:2.6rem;letter-spacing:-0.054rem}
+}
+@media all and (max-width:767px){.lws{padding:7.2rem 0 4.8rem}
+.lws .swiper-inner{margin-top:4.8rem}
+.lws .txt-wrap{padding-left:0}
+}
+html[dir=rtl] .lws .swiper-inner .swiper-button-prev{left:50%;margin-left:47vw}
+@media all and (max-width:1024px){html[dir=rtl] .lws .swiper-inner .swiper-button-prev{margin-left:calc(50vw - 4.6rem)}
+}
+html[dir=rtl] .lws .swiper-inner .swiper-button-next{left:50%;margin-left:-47vw}
+@media all and (max-width:1024px){html[dir=rtl] .lws .swiper-inner .swiper-button-next{margin-left:calc(-50vw + 4.6rem)}
+}

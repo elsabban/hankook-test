@@ -1,0 +1,38 @@
+.lciba .text-wrap{padding:0 10rem}
+.lciba .tab-content{margin-top:3.2rem}
+.lciba .tab-content .img-wrap{position:relative;position:relative;transition:all .5s}
+.lciba .tab-content .img-wrap img.mobile{display:none}
+.lciba .tab-content .img-wrap .hidden-tab-button{border-radius:50%;background-color:#fff;width:2.2%;height:4.4%;position:absolute;z-index:9;cursor:pointer}
+.lciba .tab-content .img-wrap .hidden-tab-button.mobile{display:none}
+.lciba .tab-content .img-wrap .hidden-tab-button::after{position:absolute;content:"";display:block;width:80%;height:80%;background-color:#c7c7c7;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%)}
+.lciba .tab-content .img-wrap .hidden-tab-button.on::after{background-color:#fd6720}
+.lciba .tab-content .text-wrap{display:none;margin-top:5.6rem}
+.lciba .tab-content .text-wrap.active{display:block}
+.lciba .tab-content .text-wrap .title-wrap{display:flex}
+.lciba .tab-content .text-wrap .title-wrap .font_contents_title_2{margin-right:.4rem}
+.lciba .tab-content .text-wrap .title-wrap span{display:flex}
+.lciba .tab-content .text-wrap .title-wrap span::before{content:":";display:inline-block;padding-right:.4rem}
+.lciba .tab-content .text-wrap .font_body_2{margin-top:2.6rem}
+.lciba .tab-content .text-wrap .font_body_1{padding-top:.6rem}
+.lciba .tab-content .text-wrap.center .title-wrap{justify-content:center;text-align:center}
+.lciba .tab-content .text-wrap.center .font_body_2{text-align:center}
+.lciba .tab-content .text-wrap.right .title-wrap{justify-content:right;text-align:right}
+.lciba .tab-content .text-wrap.right .font_body_2{text-align:right}
+@media all and (max-width:1024px){.lciba .tab-content{margin-top:2.4rem}
+.lciba .tab-content .text-wrap{margin-top:3.6rem;padding:unset}
+.lciba .tab-content .text-wrap .font_body_2{margin-top:1.6rem}
+.lciba .tab-content .text-wrap .font_body_1{padding-top:0}
+}
+@media all and (max-width:767px){.lciba .text-wrap{padding:0}
+.lciba .text-wrap .font_body_1{font-size:1.6rem}
+.lciba .tab-content .img-wrap img.pc{display:none}
+.lciba .tab-content .img-wrap img.mobile{display:block}
+.lciba .tab-content .img-wrap .hidden-tab-button{border-radius:50%;width:6%;height:6.6%;position:absolute;cursor:pointer}
+.lciba .tab-content .img-wrap .hidden-tab-button.mobile{display:block}
+.lciba .tab-content .img-wrap .hidden-tab-button.web{display:none}
+.lciba .tab-content .title-wrap{flex-wrap:wrap}
+.lciba .tab-content .title-wrap h2{width:100%}
+.lciba .tab-content .title-wrap .font_body_1{padding-top:.2rem}
+}
+html[dir=rtl] .lciba .tab-content .text-wrap .title-wrap .font_contents_title_2{margin-left:.4rem;margin-right:unset}
+html[dir=rtl] .lciba .tab-content .text-wrap .title-wrap span::before{padding-left:.4rem;padding-right:unset}

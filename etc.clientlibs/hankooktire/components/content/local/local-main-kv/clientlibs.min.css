@@ -1,0 +1,101 @@
+.lmk{position:relative;overflow-x:hidden;overflow-y:visible;min-height:56rem;height:var(--full-height);max-height:1000px}
+@media all and (max-width:767px){.lmk .popup_local .popup_base .pop_inner{min-height:unset}
+}
+.lmk__swiper{height:100%;overflow:hidden}
+.lmk__swiper .swiper-slide{height:100%}
+.lmk__swiper .swiper-pagination{bottom:150px}
+.lmk__swiper video,.lmk__swiper img{position:absolute;height:100%;width:100%;object-fit:cover}
+.lmk__condition-panel{display:flex;align-items:center;position:absolute;z-index:1;bottom:4rem;left:50%;transform:translate(-50%,0);padding:10px 30px 10px 10px;border-radius:40px;min-width:80rem;background-color:#fff}
+.lmk__txt-wrapper{position:absolute;top:50%;left:50%;width:75%;transform:translate(-50%,-50%)}
+@media all and (max-width:767px){.lmk__txt-wrapper{width:100%}
+}
+.lmk__txt-wrapper .lmk__txt{width:60rem}
+@media all and (max-width:767px){.lmk__txt-wrapper .lmk__txt{width:calc(100% - 60px);margin:0 auto}
+}
+.lmk__txt-wrapper.white h3,.lmk__txt-wrapper.white p{color:#fff}
+.lmk__txt-wrapper h3{margin-bottom:1.6rem;line-height:1.29;letter-spacing:-0.056rem}
+@media all and (max-width:767px){.lmk__txt-wrapper h3{margin-bottom:.6rem}
+}
+.lmk__txt-wrapper p{line-height:1.4;letter-spacing:-0.01rem}
+.lmk__txt-wrapper a{margin-top:3.6rem}
+@media all and (max-width:767px){.lmk__txt-wrapper a{margin-top:1.8rem}
+}
+.lmk .switch-wrap{position:relative;white-space:nowrap;padding:6px 23px 6px 22px;border-radius:30px;background-color:#000}
+.lmk .switch{display:inline-block;position:relative}
+.lmk .switch::after{content:"";display:block;width:48px;height:48px;opacity:.4;background-size:100%}
+.lmk .switch[data-type=pc]::after{background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/c_pc.svg)}
+@media all and (max-width:1024px){.lmk .switch[data-type=pc]::after{background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/c_pc_mobile.svg)}
+}
+.lmk .switch[data-type=pc] .tooltip{left:2.4rem;transform:translate(-50%,-100%);-webkit-transform:translate(-50%,-100%)}
+.lmk .switch[data-type=truck]::after{background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/c_truck.svg)}
+@media all and (max-width:1024px){.lmk .switch[data-type=truck]::after{background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/c_truck_mobile.svg)}
+}
+.lmk .switch[data-type=truck] .tooltip{right:2.4rem;transform:translate(50%,-100%);-webkit-transform:translate(50%,-100%)}
+.lmk .switch+.switch{margin-left:1rem;padding-left:1.2rem}
+@media all and (max-width:1024px){.lmk .switch+.switch{margin-left:.4rem;padding-left:1rem}
+}
+.lmk .switch+.switch::before{content:"";display:block;position:absolute;width:1px;height:26px;left:0;top:50%;transform:translate(0,-50%);opacity:.2;background-color:#f7f7f7}
+.lmk .switch .tooltip{visibility:hidden;opacity:0;position:absolute;top:-2.3rem;font-size:1.1rem;color:#666;display:block;white-space:nowrap;background-color:#fff;padding:.3rem .9rem .4rem;letter-spacing:-0.006rem;transition:opacity .3s;-webkit-transition:opacity .3s}
+.lmk .switch .tooltip::before{display:block;content:"";width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #f7f7f7;position:absolute;bottom:-4px;left:50%;transform:translate(-50%)}
+.lmk .switch:hover .tooltip{visibility:visible;opacity:1}
+.lmk .cond-wrap{display:none;align-items:center}
+.lmk .cond{position:relative;padding-left:7.2rem;padding-right:5rem;cursor:pointer}
+.lmk .cond:nth-child(2){padding-left:5rem;padding-right:7.2rem}
+.lmk .cond.mobile{display:none}
+.lmk .cond small{display:block;color:#666;font-size:1.4rem;font-weight:500}
+.lmk .cond strong{display:block;white-space:nowrap;font-size:2.4rem;font-weight:600}
+.lmk .cond+.cond::before{content:"";display:block;position:absolute;width:1px;height:44px;left:0;top:50%;transform:translate(0,-50%);background-color:rgba(0,0,0,0.15)}
+.lmk .find-btn{display:none}
+.lmk [data-switch=pc] .switch[data-type=pc]::after{opacity:1}
+.lmk [data-switch=pc] .cond-wrap[data-type=pc]{display:flex}
+.lmk [data-switch=truck] .switch[data-type=truck]::after{opacity:1}
+.lmk [data-switch=truck] .cond-wrap[data-type=truck]{display:flex}
+@media all and (max-width:1024px){.lmk{height:var(--mobile-cover-height-except-header,100vh)}
+.lmk__swiper{height:100%}
+.lmk__swiper .swiper-pagination{bottom:126px;z-index:9}
+.lmk__condition-panel{min-width:55rem;padding:8px 10px}
+.lmk .switch-wrap{height:4rem;padding:0 14px 0 14px}
+.lmk .switch::after{width:40px;height:40px}
+.lmk .switch .tooltip{display:none}
+.lmk .cond{padding-left:4rem;padding-right:2.8rem}
+.lmk .cond:nth-child(2){padding-left:2.8rem;padding-right:4rem}
+.lmk .cond small{font-size:1.1rem}
+.lmk .cond strong{font-size:1.6rem}
+.lmk .cond-wrap{flex:1;position:relative}
+.lmk .cond-wrap[data-type=truck] button{padding-left:max(1.6rem,8%);padding-right:max(1.6rem,5%)}
+}
+@media all and (max-width:767px){.lmk__condition-panel{min-width:min(95%,330px);width:calc(100% - 60px);padding:3px 8px 3px 8px}
+.lmk .cond{position:absolute;padding-left:max(1.6rem,8%);padding-right:max(1.6rem,5%);font-family:inherit}
+.lmk .cond small{letter-spacing:-0.011rem;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lmk .cond strong{transform:translateY(-0.1rem);padding:0;line-height:1.5;letter-spacing:-0.008rem}
+.lmk .cond .btn--round::after{display:none}
+.lmk .cond-wrap .cond{display:none;width:100%}
+.lmk .cond-wrap .cond strong{position:relative;vertical-align:bottom;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lmk .cond-wrap .cond+.cond:before{display:none}
+.lmk .cond-wrap .cond.mobile{display:block;text-align:left}
+.lmk .cond-wrap .cond.mobile:after{position:absolute;bottom:0;right:0;transform:translateY(-25%);display:inline-block;content:"";vertical-align:bottom;width:1.6rem;height:1.6rem;background:url(../../../../clientlibs/clientlib-local/resources/svg/icon-down-arrow.svg) no-repeat 50% 50%;background-size:1.6rem}
+.lmk .find-btn{display:block}
+.lmk .find-btn::after{width:40px;height:40px;background-size:24px 24px}
+}
+@media all and (max-width:767px) and (max-width:767px){.lmk .find-btn::after{background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-base/resources/svg/m_arrow_r.svg)}
+}
+@media all and (max-width:330px){.lmk__condition-panel{min-width:91.67%}
+.lmk__condition-panel .cond-wrap .cond{padding:0 1rem}
+.lmk__condition-panel .cond-wrap .cond strong{font-size:1.4rem}
+}
+html[dir=rtl] .lmk__condition-panel{padding:10px 10px 10px 30px;min-width:86.5rem}
+html[dir=rtl] .lmk .cond-wrap .cond.mobile::after{right:unset;left:0}
+html[dir=rtl] .lmk .switch+.switch{margin-right:1rem;margin-left:unset;padding-right:1.2rem;padding-left:unset}
+@media all and (max-width:1024px){html[dir=rtl] .lmk .switch+.switch{margin-right:.4rem;padding-right:1rem;margin-left:unset;padding-left:unset}
+}
+html[dir=rtl] .lmk .switch+.switch::before{left:unset;right:0}
+html[dir=rtl] .lmk .cond{padding-right:7.2rem;padding-left:5rem}
+html[dir=rtl] .lmk .cond+.cond::before{right:0;left:unset}
+@media all and (max-width:1024px){html[dir=rtl] .lmk__condition-panel{min-width:57rem;padding:8px 10px}
+html[dir=rtl] .lmk .cond{padding-right:4rem;padding-left:2.8rem}
+}
+@media all and (max-width:767px){html[dir=rtl] .lmk .cond{padding-right:max(1.6rem,8%);padding-left:max(1.6rem,5%)}
+html[dir=rtl] .lmk__condition-panel{min-width:min(95%,330px);width:calc(100% - 60px);padding:3px 8px 3px 8px}
+html[dir=rtl] .lmk .cond-wrap .cond.mobile{text-align:right}
+}
+html[lang=ja] .lmk .switch+.switch,html[lang=pt] .lmk .switch+.switch{display:none}

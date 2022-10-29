@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;opacity:0}.cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.5px}
+        </style>
+    </defs>
+    <g id="Icon" transform="translate(-164 -35.002)">
+        <g id="Icon_-_Tire_tips" data-name="Icon - Tire tips" transform="translate(-9 -16)">
+            <g id="Group_7705" data-name="Group 7705" transform="translate(173 53.002)">
+                <path id="Path_45470" data-name="Path 45470" class="cls-2" d="M44 15v47.039" transform="translate(0 -.039)"/>
+                <path id="Path_45470-2" data-name="Path 45470" class="cls-2" d="M36 15v47.039" transform="translate(0 -.039)"/>
+                <path id="Rectangle_12242" data-name="Rectangle 12242" class="cls-2" d="M52 31.406v22.852C52 58.534 48.162 62 43.429 62h-6.858C31.838 62 28 58.534 28 54.258V21.742C28 17.466 31.838 14 36.571 14h6.858C48.162 14 52 17.466 52 21.742v3.335"/>
+            </g>
+        </g>
+    </g>
+</svg>

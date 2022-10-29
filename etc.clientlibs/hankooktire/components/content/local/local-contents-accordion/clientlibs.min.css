@@ -1,0 +1,164 @@
+.lca .star-indent{position:relative;padding-left:.8rem}
+.lca .star-indent::before{display:inline-block;position:absolute;left:0;top:0;content:"*";height:100%}
+.lca .indent-box{margin-top:1.6rem}
+.lca .indent-box .star-indent{margin-top:unset}
+.lca .text-wrap p{margin-top:2.4rem}
+.lca-accordion{display:flex;flex-wrap:wrap;margin-top:4.8rem}
+.lca-accordion>li{width:100%;border-top:1px solid rgba(0,0,0,.15)}
+.lca-accordion>li:last-child{border-bottom:1px solid rgba(0,0,0,.15)}
+.lca-accordion>li .accordion-top{padding:2.8rem 1.6rem;cursor:pointer;position:relative}
+.lca-accordion>li .accordion-top::after{content:"";display:block;width:3.2rem;height:3.2rem;background:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/plus-icon.svg") no-repeat 50%/cover;position:absolute;right:1.6rem;top:50%;transform:translateY(-50%)}
+.lca-accordion>li .accordion-top.active::after{background:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/minus-icon.svg") no-repeat 50%/cover}
+@media all and (max-width:1024px){.lca-accordion>li .accordion-top{padding:2.5rem 0}
+.lca-accordion>li .accordion-top::after{right:0;width:2.4rem;height:2.4rem}
+}
+.lca-accordion>li .lca-accordion-container{display:none}
+.lca-accordion-container{display:block;width:100%;height:auto;padding:2.8rem 6.4rem 6.4rem 1.6rem}
+.lca-accordion-container .catalog a{display:flex;flex-wrap:wrap;width:100%;height:auto}
+.lca-accordion-container .catalog a:hover{text-decoration:underline}
+.lca-accordion-container .catalog p{position:relative;padding-right:1rem;font-weight:500}
+.lca-accordion-container .catalog span{display:inline-block;width:3.2rem;height:3.2rem;background:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-base/resources/svg/c_icon_down.svg") no-repeat 0/cover}
+.lca-accordion-container-list .mt-large{margin-top:8rem}
+.lca-accordion-container-list .mt-medium{margin-top:6.4rem}
+.lca-accordion-container-list .mt-small{margin-top:4.8rem}
+@media all and (max-width:1024px){.lca-accordion-container-list .mt-large{margin-top:6.4rem}
+.lca-accordion-container-list .mt-medium{margin-top:4.8rem}
+.lca-accordion-container-list .mt-small{margin-top:3.2rem}
+}
+.lca-accordion-container-list li h3.font_contents_title_2_main{font-weight:600}
+.lca-accordion-container-list li h3.font_contents_title_2_main.free-warranty-title{font-weight:400}
+@media all and (max-width:1024px){.lca-accordion-container-list li h3.font_contents_title_2_main.free-warranty-title{font-size:2rem}
+}
+.lca-accordion-container-list li p{margin-top:1.6rem}
+.lca-accordion-container-list li p b{color:#ed6c00;margin-right:.5rem}
+.lca-accordion-container-list li p strong{font-weight:500}
+.lca-accordion-container-list li .indent{margin-top:1.6rem}
+.lca-accordion-container-list li .indent+p.font_body_3{padding-left:.8rem}
+.lca-accordion-container-list li .indent li{padding-left:1.5rem;position:relative}
+.lca-accordion-container-list li .indent li::before{position:absolute;left:0;content:"•"}
+.lca-accordion-container-list li .indent.numbering li{padding-left:2rem}
+.lca-accordion-container-list li .indent.numbering li::before{display:none}
+.lca-accordion-container-list li .indent.numbering li span{position:absolute;left:0}
+.lca-accordion-container-list li .table-wrap{width:100%;overflow:auto}
+.lca-accordion-container-list li table{margin-top:2.4rem;width:100%;min-width:60rem}
+.lca-accordion-container-list li table th{font-weight:400}
+.lca-accordion-container-list li table .right{text-align:right !important}
+.lca-accordion-container-list li table .left{text-align:left !important}
+.lca-accordion-container-list li table .center{text-align:center !important}
+.lca-accordion-container-list li table.simple th{text-align:center;padding:1.2rem 3rem;border-top:1px solid;border-bottom:1px solid rgba(0,0,0,.15)}
+.lca-accordion-container-list li table.simple td{padding:2.1rem 3rem;border-bottom:1px solid rgba(0,0,0,.15)}
+.lca-accordion-container-list li table.simple td.td-title{text-align:center}
+.lca-accordion-container-list li table.extended th{border-top:1px solid;border-bottom:1px solid rgba(0,0,0,.15);padding:1rem 2rem;border-left:1px solid rgba(0,0,0,.15)}
+.lca-accordion-container-list li table.extended th:first-child{border-left:0;text-align:center}
+.lca-accordion-container-list li table.extended td{padding:1rem 2rem;border-bottom:1px solid rgba(0,0,0,.15);border-left:1px solid rgba(0,0,0,.15);vertical-align:top}
+.lca-accordion-container-list li table.extended td.td-title{text-align:center;font-weight:500;border-left:0}
+.lca-accordion-container-list li table.neat th{text-align:center;padding:1.2rem;border-top:1px solid;border-bottom:1px solid rgba(0,0,0,.15)}
+.lca-accordion-container-list li table.neat td{padding:1.2rem 1rem;border-bottom:1px solid rgba(0,0,0,.15);text-align:center}
+.lca-accordion-container-list li table.neat td.gray-bg{background:#f5f5f5}
+.lca-accordion-container .list{margin-top:2.4rem;background:#fafafa;padding:3rem}
+.lca-accordion-container .list>li{padding-left:1.2rem;position:relative}
+.lca-accordion-container .list>li::before{content:"•";position:absolute;left:0;top:0}
+.lca-accordion-container .list+.catalog{margin-top:2.8rem}
+@media all and (max-width:1024px){.lca-accordion-container{padding:2.4rem 0rem 3.2rem}
+}
+.lca-accordion-container>p{margin-top:1.6rem}
+.lca-accordion .tab-wrap{margin:8rem 0 4rem 0}
+.lca-accordion .tab-wrap .tab-list{display:flex}
+.lca-accordion .tab-wrap .tab-list li{cursor:pointer;margin-right:2.8rem;color:#b6b6b6}
+.lca-accordion .tab-wrap .tab-list li.active{color:#000;border-bottom:1px solid;pointer-events:none}
+.lca-accordion .tab-content .content-wrap{margin-top:3.2rem;display:none}
+.lca-accordion .tab-content .content-wrap.active{display:block}
+.lca-accordion .tab-content .font_contents_title_2{margin-top:4.8rem}
+.lca-accordion .tab-content .font_body_2{margin-top:2.4rem}
+.lca .divided{display:flex}
+.lca .divided figure{width:calc(50% - 0.8rem)}
+.lca .divided figure figcaption{margin-top:2.4rem}
+@media all and (max-width:1024px){.lca .divided figure figcaption{margin-top:1.6rem}
+}
+.lca .divided figure:first-child{margin-right:1.6rem}
+.lca .divided.three figure{width:calc(33.3333% - 0.8rem)}
+.lca .divided.three figure:first-child{margin-right:1.2rem}
+.lca .divided.three figure:not(:first-child){margin-right:1.2rem}
+@media all and (max-width:767px){.lca .divided{flex-wrap:wrap}
+.lca .divided figure{width:100%}
+.lca .divided figure:first-child{margin-right:unset}
+.lca .divided figure:not(:first-child){margin-top:2rem}
+.lca .divided.three figure{width:100%}
+.lca .divided.three figure:first-child{margin-right:unset}
+.lca .divided.three figure:not(:first-child){margin-right:unset}
+}
+.lca .colored-caption{color:#fd6720;margin-top:1.6rem}
+@media all and (max-width:1024px){.lca .colored-caption{margin-top:1.2rem}
+}
+.lca .free-guarantee-list{margin-top:4.8rem;display:flex;flex-wrap:wrap}
+.lca .free-guarantee-list-item{width:calc(50% - 0.6rem)}
+.lca .free-guarantee-list-item:nth-child(2n-1){margin-right:1.2rem}
+.lca .free-guarantee-list-item:nth-child(n+3){margin-top:8rem}
+@media all and (max-width:1024px){.lca .free-guarantee-list-item:nth-child(n+3){margin-top:4.8rem}
+}
+.lca .free-guarantee-list-title{margin-top:2.4rem}
+.lca .free-guarantee-list-product{margin-top:1.2rem;color:#fd6720;font-weight:400}
+.lca .free-guarantee-list-desc{margin-top:2.4rem}
+.lca .free-guarantee-list-show-more{margin-top:4.2rem;font-size:1.4rem}
+.lca .free-guarantee-list-show-more-caption{display:block;margin-top:1.6rem}
+@media all and (max-width:1024px){.lca .free-guarantee-list{margin-top:3.2rem}
+.lca .free-guarantee-list-title{margin-top:2.4rem}
+.lca .free-guarantee-list-product{margin-top:.8rem}
+.lca .free-guarantee-list-desc{margin-top:1.6rem}
+.lca .free-guarantee-list-show-more{margin-top:2.4rem}
+.lca .free-guarantee-list-show-more-caption{margin-top:1.2rem}
+}
+@media all and (max-width:767px){.lca .free-guarantee-list{justify-content:center}
+.lca .free-guarantee-list-item{width:100%}
+.lca .free-guarantee-list-item:nth-child(2n-1){margin-right:unset}
+.lca .free-guarantee-list-item:nth-child(n+3){margin-top:unset}
+.lca .free-guarantee-list-item:not(:first-child){margin-top:4rem}
+.lca .free-guarantee-list-img{max-width:unset;width:100%}
+}
+@media all and (max-width:1024px){.lca .font_body_2{margin-top:1.6rem}
+.lca .tab-wrap{margin:4.8rem 0 3.2rem 0}
+.lca .tab-content{margin-top:2.4rem}
+.lca .tab-content .font_contents_title_2{margin-top:4.8rem}
+.lca .tab-content .font_body_2{margin-top:1.6rem}
+.lca .tab-wrap{margin:4rem 0 3.2rem 0;width:100%;overflow:auto}
+.lca .tab-wrap .tab-list{min-width:56rem}
+.lca .tab-content{margin-top:2.4rem}
+.lca .tab-content .font_contents_title_2{margin-top:4rem}
+}
+@media all and (max-width:767px){.lca .tab-wrap{margin:4rem 0 3.2rem 0;width:100%;overflow:auto}
+.lca .tab-wrap .tab-list{min-width:56rem}
+.lca .tab-content{margin-top:2.4rem}
+.lca .tab-content .font_contents_title_2{margin-top:3.2rem}
+}
+html[dir=rtl] .lca .star-indent{padding-left:unset;padding-right:.8rem}
+html[dir=rtl] .lca .star-indent::before{left:unset;right:0}
+html[dir=rtl] .lca-accordion>li .accordion-top::after{right:unset;left:1.6rem}
+@media all and (max-width:1024px){html[dir=rtl] .lca-accordion>li .accordion-top::after{right:unset;left:0}
+}
+html[dir=rtl] .lca-accordion-container{padding:2.8rem 1.6rem 6.4rem 6.4rem}
+html[dir=rtl] .lca-accordion-container .catalog p{padding-right:unset;padding-left:1rem}
+html[dir=rtl] .lca-accordion-container-list li .indent+p.font_body_3{padding-left:unset;padding-right:.8rem}
+html[dir=rtl] .lca-accordion-container-list li .indent li{padding-left:unset;padding-right:1.5rem}
+html[dir=rtl] .lca-accordion-container-list li .indent li::before{left:unset;right:0}
+html[dir=rtl] .lca-accordion-container-list li .indent.numbering li{padding-right:2rem}
+html[dir=rtl] .lca-accordion-container-list li .indent.numbering li span{left:unset;right:0}
+html[dir=rtl] .lca-accordion-container-list li table .left{text-align:right !important}
+html[dir=rtl] .lca-accordion-container-list li table.extended th{border-left:0;border-right:1px solid rgba(0,0,0,.15)}
+html[dir=rtl] .lca-accordion-container-list li table.extended th:first-child{border-right:0}
+html[dir=rtl] .lca-accordion-container-list li table.extended td{border-left:0;border-right:1px solid rgba(0,0,0,.15)}
+html[dir=rtl] .lca-accordion-container-list li table.extended td.td-title{border-right:0}
+html[dir=rtl] .lca-accordion .tab-wrap .tab-list li{margin-left:2.8rem;margin-right:unset}
+html[dir=rtl] .lca-accordion .list>li{padding-left:unset;padding-right:1.2rem}
+html[dir=rtl] .lca-accordion .list>li::before{left:unset;right:0}
+html[dir=rtl] .lca .free-guarantee-list-item:nth-child(2n-1){margin-right:unset;margin-left:1.2rem}
+@media all and (max-width:767px){html[dir=rtl] .lca .free-guarantee-list-item:nth-child(2n-1){margin-right:unset;margin-left:unset}
+}
+html[dir=rtl] .lca .divided figure:first-child{margin-right:unset;margin-left:1.6rem}
+html[dir=rtl] .lca .divided.three figure:first-child{margin-left:1.2rem;margin-right:unset}
+html[dir=rtl] .lca .divided.three figure:not(:first-child){margin-left:1.2rem;margin-right:unset}
+html[dir=rtl] .lca .divided .free-guarantee-list-item:nth-child(2n-1){margin-left:unset;margin-right:1.2rem}
+@media all and (max-width:1024px){html[dir=rtl] .lca .lca-accordion-container{padding:2.4rem 0rem 3.2rem}
+}
+@media all and (max-width:767px){html[dir=rtl] .lca .divided.three figure:first-child{margin-right:unset;margin-left:unset}
+html[dir=rtl] .lca .divided.three figure:not(:first-child){margin-right:unset;margin-left:unset}
+}

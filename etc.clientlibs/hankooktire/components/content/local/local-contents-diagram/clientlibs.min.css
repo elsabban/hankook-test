@@ -1,0 +1,33 @@
+.lcda-diagram{margin-top:4.8rem;display:flex;justify-content:space-between;flex-wrap:wrap}
+.lcda-diagram li{width:48%;margin-right:4%;padding:4rem 0 0rem 0;border-top:1px solid #bbb}
+.lcda-diagram li:not(:nth-child(-n+2)){margin-top:8rem}
+.lcda-diagram li:nth-child(2n){margin-right:0}
+.lcda-diagram li img{max-width:7.2rem}
+.lcda-diagram li .font_contents_title_2_main{margin-top:4rem}
+.lcda-diagram li .font_body_3_main{padding-right:1.4rem;margin-top:2.8rem}
+.lcda .font_caption{margin-top:4.8rem}
+@media all and (max-width:1024px){.lcda-diagram{margin-top:3.2rem}
+.lcda-diagram li{padding:2rem 0 0}
+.lcda-diagram li:not(:nth-child(-n+2)){margin-top:6rem}
+.lcda-diagram li img{max-width:5.8rem}
+.lcda-diagram li .font_contents_title_2_main{margin-top:1rem;font-size:1.8rem}
+.lcda-diagram li .font_body_3_main{padding-right:3.8rem;margin-top:1.6rem}
+.lcda .font_caption{margin-top:3.2rem}
+}
+@media all and (max-width:767px){.lcda-diagram{margin-top:3.2rem}
+.lcda-diagram li{width:100%;margin-right:0;padding:2rem 0 2.4rem 0;display:flex}
+.lcda-diagram li:not(:nth-child(-n+2)){margin-top:unset}
+.lcda-diagram li img{max-width:4.8rem}
+.lcda-diagram li .font_contents_title_2_main{margin-top:0rem}
+.lcda-diagram li .font_body_3_main{margin-top:1.6rem;padding-right:unset}
+.lcda-diagram li .text-wrap{padding-left:2rem}
+.lcda .font_caption{margin-top:.8rem}
+}
+html[dir=rtl] .lcda-diagram li{margin-right:0}
+html[dir=rtl] .lcda-diagram li:nth-child(2n){margin-right:4%}
+html[dir=rtl] .lcda-diagram li .font_body_3_main{padding-left:1.4rem;padding-right:unset}
+@media all and (max-width:1024px){html[dir=rtl] .lcda-diagram li .font_body_3_main{padding-left:3.8rem;padding-right:unset}
+}
+@media all and (max-width:767px){html[dir=rtl] .lcda-diagram li:nth-child(2n){margin-right:0}
+html[dir=rtl] .lcda-diagram li .text-wrap{padding-right:2rem;padding-left:unset}
+}

@@ -1,0 +1,28 @@
+.lcdb-diagram{display:flex;justify-content:center}
+.lcdb-diagram li{width:25%;margin-right:8rem}
+.lcdb-diagram li:last-child{margin-right:0}
+.lcdb-diagram li .font_contents_title_2_main{margin-top:2rem}
+.lcdb-diagram li .desc{margin-top:.8rem;letter-spacing:-0.005em;line-height:1.55;color:#666}
+.lcdb .text-wrap{text-align:center}
+.lcdb .font_caption{margin-top:4.8rem;padding-left:.8rem;position:relative}
+.lcdb .font_caption::after{content:"*";display:inline-block;position:absolute;left:0;top:0;height:100%}
+@media all and (max-width:1024px){.lcdb-diagram li{margin-right:1rem}
+.lcdb-diagram li .img-wrap{padding:0 .8rem}
+.lcdb-diagram li .font_contents_title_2_main{margin-top:1.4rem}
+.lcdb-diagram li .desc{margin-top:1rem}
+.lcdb .font_caption{margin-top:3.2rem}
+}
+@media all and (max-width:767px){.lcdb-diagram{flex-wrap:wrap}
+.lcdb-diagram li{padding-bottom:3.2rem;width:calc(50% - 1.5rem);margin-right:3rem}
+.lcdb-diagram li:nth-child(2n){margin-right:0}
+.lcdb .font_caption{margin:0}
+}
+html[dir=rtl] .lcdb-diagram li{margin-left:8rem;margin-right:unset}
+html[dir=rtl] .lcdb-diagram li:last-child{margin-left:0}
+html[dir=rtl] .lcdb .font_caption{padding-right:.8rem;padding-left:unset}
+html[dir=rtl] .lcdb .font_caption::after{right:0;left:unset}
+@media all and (max-width:1024px){html[dir=rtl] .lcdb-diagram li{margin-left:1rem}
+}
+@media all and (max-width:767px){html[dir=rtl] .lcdb-diagram li{margin-left:3rem}
+html[dir=rtl] .lcdb-diagram li:nth-child(2n){margin-left:0}
+}

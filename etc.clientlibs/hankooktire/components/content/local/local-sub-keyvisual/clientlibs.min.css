@@ -1,0 +1,94 @@
+.lsk{position:relative;overflow:hidden}
+.lsk .bg-wrap{position:relative;width:100%}
+.lsk .bg-wrap.type-a{height:25.5208vw;max-height:49rem;min-height:45rem}
+.lsk .bg-wrap.type-b{height:39.6875vw;max-height:76.2rem;min-height:53rem}
+@media all and (max-width:1024px){.lsk .bg-wrap.type-a{min-height:unset;height:40rem}
+.lsk .bg-wrap.type-b{min-height:unset;height:54.6rem}
+}
+@media all and (max-width:767px){.lsk .bg-wrap.type-b{height:42.6rem}
+}
+.lsk .img-wrap::after{content:"";width:100%;height:100%;position:absolute;left:0;top:0;background-color:#00000040}
+.lsk .img-wrap,.lsk .video-wrap{width:100%;height:100%}
+.lsk .img-wrap picture,.lsk .img-wrap video,.lsk .video-wrap picture,.lsk .video-wrap video{display:block;width:100%;height:100%}
+.lsk .img-wrap picture>img,.lsk .img-wrap video>img,.lsk .video-wrap picture>img,.lsk .video-wrap video>img{width:100%;height:100%;object-fit:cover}
+.lsk .text-wrap{width:100%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff}
+.lsk .text-wrap .btn-wrap{text-align:center;margin-top:2rem}
+.lsk .btn--arrow{display:flex;align-items:center;position:absolute;right:6rem;bottom:3.2rem}
+.lsk .btn--arrow::after{background-size:unset}
+#popup_wrapper #popup_local_dealer .dim{position:fixed}
+#popup_wrapper #popup_local_dealer .pop_inner{max-width:100%;width:124.8rem;overflow-y:auto}
+#popup_wrapper #popup_local_dealer .pop_inner .top{height:7.6rem}
+#popup_wrapper #popup_local_dealer .pop_inner .top .close_pop{width:4.8rem;height:4.8rem;border-radius:50%;background-color:rgba(0,0,0,.04);background:rgba(0,0,0,.04) url("../../../../clientlibs/clientlib-base/resources/svg/c_close_mini.svg") no-repeat 50% 50%}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con{padding:0rem 2.8rem 4rem 4.8rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tab{margin:6.4rem 0 3.2rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts{display:none;width:100%;max-height:50rem;overflow-y:scroll;padding-right:2.8rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts::-webkit-scrollbar{width:.4rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts::-webkit-scrollbar-track{background:transparent}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.15)}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts.active{display:block}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb{width:100%;border-top:1px solid #000;border-collapse:separate;word-break:keep-all;word-wrap:break-word}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__thead th{padding:1.2rem 1.6rem;border-right:1px solid #d9d9d9}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__thead th:nth-last-of-type(1){border-right:0}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td{max-width:19.2rem;padding:2rem 1.6rem;border-right:1px solid #d9d9d9;border-top:1px solid #d9d9d9;vertical-align:initial}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(3){max-width:15rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(4){max-width:15rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(5){max-width:15rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(6){min-width:19.2rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(7){min-width:19.2rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-last-of-type(1){border-right:0}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .btn_area{padding-top:3.2rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .btn_area .btn-btm{display:inline-block;margin:0 auto}
+@media all and (max-width:1024px){.lsk .text-wrap .btn-wrap{margin-top:1.2rem}
+.lsk .btn--arrow{right:4rem;bottom:2.6rem}
+#popup_wrapper #popup_local_dealer .pop_inner{width:76rem;overflow-y:hidden}
+#popup_wrapper #popup_local_dealer .pop_inner .top{height:7.2rem}
+#popup_wrapper #popup_local_dealer .pop_inner .top .close_pop{width:4rem;height:4rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con{padding:0rem 3.2rem 3.2rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_title .title{font-size:3.2rem;line-height:1.25;letter-spacing:-0.01em}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tab{margin:4rem 0 3.2rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts{padding-right:.4rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb{border-top:0;border-collapse:separate}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__thead{display:none}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody{width:100%}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody tr{display:block;width:100%;padding:1.6rem 0rem 3.2rem;border-top:1px solid #d9d9d9}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td{display:block;width:100%;max-width:none;margin-top:.2rem;padding:0rem 0rem 0rem;border-right:0;border-top:0}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(3){max-width:none}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(4){max-width:none}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(5){max-width:none}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(6){min-width:auto}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-of-type(7){min-width:auto}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td[data-label="No."]{display:none}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td[data-label=Country]{font-size:1.2rem;line-height:1.5;color:#666}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td[data-label=Dealer]{font-size:1.6rem;font-weight:500;line-height:1.5;color:#000}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .btn_area{display:none}
+}
+@media all and (max-width:767px){.lsk .btn--arrow{right:2rem;bottom:2.6rem}
+#popup_wrapper #popup_local_dealer .pop_inner{width:35rem;max-height:calc(var(--full-height, 100vh)*.9)}
+#popup_wrapper #popup_local_dealer .pop_inner .top{height:8rem}
+#popup_wrapper #popup_local_dealer .pop_inner .top .close_pop{top:2rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con{padding:0rem 2rem 2rem}
+#popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts{max-height:40rem;padding-right:0rem}
+}
+html[dir=rtl] .lsk .btn--arrow{left:6rem;right:unset}
+html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con{padding:0rem 4.8rem 4rem 2.8rem}
+@media all and (max-width:1024px){html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con{padding:0 3.2rem 3.2rem}
+}
+@media all and (max-width:767px){html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con{padding:0rem 2rem 2rem}
+}
+html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts{padding-left:2.8rem;padding-right:unset}
+@media all and (max-width:1024px){html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts{padding-left:.4rem}
+}
+@media all and (max-width:767px){html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tabconts{padding-left:0rem}
+}
+html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__thead th{border-right:unset;border-left:1px solid #d9d9d9}
+@media all and (max-width:1024px){html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__thead th{border-left:0}
+}
+html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__thead th:nth-last-of-type(1){border-left:0}
+html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td{border-right:unset;border-left:1px solid #d9d9d9}
+@media all and (max-width:1024px){html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td{border-left:0}
+}
+html[dir=rtl] #popup_wrapper #popup_local_dealer .pop_inner .pop_con .pop_tabconts_wrapper .pop_tb .tb__tbody td:nth-last-of-type(1){border-left:0}
+@media all and (max-width:1024px){html[dir=rtl] .lsk .btn--arrow{left:4rem;right:unset}
+}
+@media all and (max-width:767px){html[dir=rtl] .lsk .btn--arrow{left:2rem}
+}

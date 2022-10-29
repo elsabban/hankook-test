@@ -1,0 +1,77 @@
+.lftl .gray{color:#999}
+.lftl .result-header>h1{font-size:3.2rem}
+@media all and (max-width:1024px){.lftl .result-header>h1{font-size:2.4rem}
+}
+.lftl .result-header .tag-wrap{display:flex;align-items:center;margin-top:2rem}
+.lftl .result-header .tag-wrap .tag{display:inline-block;margin-right:1.2rem;color:#666;font-size:1.4rem;font-weight:500;line-height:1.43}
+@media all and (max-width:1024px){.lftl .result-header{position:relative;display:flex;flex-wrap:wrap;justify-content:space-between}
+.lftl .result-header .tag-wrap{order:1;width:calc(100% + max(8rem,4.17vw));justify-content:center;border-top:1px solid rgba(0,0,0,.1);border-bottom:1px solid rgba(0,0,0,.1);padding:1rem 0;margin-bottom:3.6rem;margin:0 max(-8rem,-4.17vw) 2.6rem}
+.lftl .result-header .tag-wrap .tags{display:none}
+.lftl .result-header h1{padding:1rem 4% 1rem 0;order:2}
+.lftl .result-header .btn-show-filter{align-self:center;order:3;position:unset;right:unset;bottom:unset}
+}
+@media all and (max-width:767px){.lftl .result-header .tag-wrap{width:calc(100% + 4rem);margin:0 -2rem 2.2rem}
+}
+.lftl__wrap{display:flex;margin-top:6.4rem}
+@media all and (max-width:1024px){.lftl__wrap{margin-top:2.4rem}
+}
+.lftl__filter{min-width:calc(27.4rem + 8rem);padding-right:8rem;transition:transform .32s}
+.lftl__results{flex:1;position:relative;width:100%}
+.lftl .no-box{display:flex;justify-content:center;align-items:center;width:100%;height:100%}
+.lftl .no-box>*{color:#444}
+@media all and (max-width:767px){.lftl .no-box{max-width:21rem;margin:0 auto}
+}
+.lftl .btn-show-filter{display:none;margin-left:auto}
+@media all and (max-width:1024px){.lftl .btn-show-filter{display:block;position:absolute;right:0;bottom:0;font-size:1.4rem;font-weight:600;letter-spacing:-0.02em;padding:.8rem 1.6rem;border:1px solid rgba(0,0,0,.15);border-radius:2rem}
+.lftl .btn-show-filter::before{content:"";display:inline-block;background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/ico_filter.svg);width:1.4rem;height:1.4rem;margin-right:.5rem}
+}
+.lftl .btn-close_search{display:none}
+@media all and (max-width:1024px){.lftl .btn-close_search{display:block;position:absolute;top:calc(var(--device-height, 100vh) * .16 - 5em);left:50%;transform:translateX(-50%)}
+}
+.lftl .func{text-align:center}
+.lftl .func>*{padding-top:0}
+.lftl .filter{background-color:#fff}
+.lftl .filter__head{display:flex;justify-content:space-between;align-items:center;height:5.1rem;border-top:1px solid #000;border-bottom:1px solid #e5e5e5}
+.lftl .filter__head>button[type=reset]{color:#888}
+.lftl .filter .caption{text-transform:capitalize;font-size:1.6rem}
+@media all and (max-width:1024px){.lftl .filter .caption{font-size:1.4rem}
+}
+.lftl .filter .caption::before{content:"";display:inline-block;vertical-align:middle;margin-right:8px;width:1.6rem;height:1.6rem;background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/c_filter.svg)}
+.lftl .filter .btn-wrap{display:none}
+@media all and (max-width:1024px){.lftl .filter .btn-wrap{display:flex;justify-content:space-between;padding:2.5rem 2rem 4.8rem;border-top:1px solid rgba(0,0,0,.1)}
+.lftl .filter .btn-wrap>button{min-width:10rem}
+}
+.lftl .filter__group{padding:1.5rem 0;border-bottom:1px solid #e5e5e5}
+.lftl .filter__group .group-head{display:inline-block;position:relative;padding:.4rem 0}
+.lftl .filter__group .group-head::before,.lftl .filter__group .group-head::after{content:"";display:inline-block;position:absolute;left:0;top:50%;transform:translateY(-50%);margin-right:8px;width:1.6rem;height:1.6rem}
+.lftl .filter__group .group-head::before{background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/c_minus.svg)}
+.lftl .filter__group .group-head::after{opacity:0;background-image:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/c_plus.svg)}
+.lftl .filter__group .group-head.is-hide::after{opacity:1}
+.lftl .filter__group .group-tit{position:relative;color:#222;font-size:1.4rem;line-height:1.43;letter-spacing:-0.05em;padding-left:2.4rem}
+.lftl .filter__group .group-wrap{overflow:hidden}
+.lftl .filter__items{padding-top:1.2rem;transition:all .29s}
+.lftl .filter__items .checkbox{padding:.8rem 0 .8rem .1rem}
+@media all and (max-width:1024px){.lftl .filter__items .checkbox{padding:.6rem 0 .6rem .1rem}
+}
+.lftl .filter__content{overflow:auto}
+@media all and (max-width:1024px){.lftl .filter{border-radius:2vw 10px 0 0}
+.lftl .filter__head{border-top:0;justify-content:center}
+.lftl .filter__head>button{display:none}
+.lftl .filter__content{padding-left:2rem;padding-right:2rem;max-height:calc((var(--device-height, 100vh) * .88 *(1 - .16)) - 51px - 38px - 25px - 48px)}
+}
+@media all and (max-width:1024px){.lftl__filter{position:fixed;top:unset;left:0;right:0;bottom:0;padding-top:calc(var(--device-height, 100vh) * .16);padding-right:0;transform:translateY(100%);z-index:10}
+.lftl__filter::before{content:"";position:fixed;width:100%;height:200vh;top:-100vh;left:0;pointer-events:none}
+.lftl__filter .filter{position:relative;max-height:calc(var(--device-height, 100vh) * .88)}
+.lftl__filter.is-show{transition:transform .32s,background-color .5s .24s;transform:translateY(0)}
+.lftl__filter.is-show::before{pointer-events:auto;transition:background-color .5s .24s;background-color:rgba(0,0,0,.5)}
+}
+html[dir=rtl] .lftl .result-header .tag-wrap .tag{margin-left:1.2rem;margin-right:unset}
+html[dir=rtl] .lftl__filter{padding-left:8rem;padding-right:unset}
+html[dir=rtl] .lftl .filter .caption::before{margin-left:8px;margin-right:unset}
+@media all and (max-width:1024px){html[dir=rtl] .lftl .btn-show-filter{margin-left:unset;margin-right:auto;left:0;right:unset}
+html[dir=rtl] .lftl .btn-show-filter::before{margin-left:.5rem;margin-right:unset}
+}
+html[dir=rtl] .lftl .filter__group .group-head::before,html[dir=rtl] .lftl .filter__group .group-head::after{right:0;left:unset;margin-left:8px;margin-right:unset}
+html[dir=rtl] .lftl .filter__group .group-tit{padding-right:2.4rem;padding-left:unset}
+@media all and (max-width:1024px){html[dir=rtl] .lftl__filter{padding-left:0}
+}

@@ -1,0 +1,27 @@
+.lcith .font_body_2{margin-top:2.4rem}
+.lcith .header-wrap{display:flex;flex-wrap:wrap}
+.lcith .header-wrap.center{justify-content:center;text-align:center}
+.lcith .header-wrap.right{justify-content:right;text-align:right}
+.lcith-diagram{margin-top:4.8rem;display:flex;justify-content:space-between;flex-wrap:wrap}
+.lcith-diagram li{width:48%;margin-right:4%}
+.lcith-diagram li:nth-child(n+3){padding:8rem 0rem 0rem 0}
+.lcith-diagram li:nth-child(2n){margin-right:0}
+.lcith-diagram li .font_contents_title_2_main{margin-top:2.4rem}
+.lcith-diagram li .font_body_3_main{margin-top:2rem}
+.lcith-diagram .text-wrap{display:flex;flex-wrap:wrap}
+.lcith-diagram .text-wrap p{width:100%}
+.lcith-diagram .text-wrap.center{justify-content:center;text-align:center}
+.lcith-diagram .text-wrap.right{justify-content:right;text-align:right}
+@media all and (max-width:1024px){.lcith .font_body_2{margin-top:1.6rem}
+.lcith-diagram{margin-top:3.2rem}
+.lcith-diagram li:nth-child(n+3){padding:4rem 0rem 0rem 0}
+.lcith-diagram li .font_contents_title_2_main{margin-top:1.6rem;font-size:1.8rem}
+.lcith-diagram li .font_body_3_main{margin-top:1.6rem}
+}
+@media all and (max-width:767px){.lcith-diagram li{width:100%;margin-right:0}
+.lcith-diagram li:nth-child(n+2){padding:4rem 0 0 0}
+}
+html[dir=rtl] .lcith-diagram li{margin-right:0}
+html[dir=rtl] .lcith-diagram li:nth-child(2n){margin-right:4%}
+@media all and (max-width:767px){html[dir=rtl] .lcith-diagram li:nth-child(2n){margin-right:0}
+}

@@ -1,0 +1,20 @@
+<svg id="Icon_-_Close" data-name="Icon - Close" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_13204" data-name="사각형 13204" class="cls-1" width="32" height="32"/>
+  <path id="패스_45188" data-name="패스 45188" class="cls-2" d="M-1373.441,45.581l10,10" transform="translate(1384.441 -34.581)"/>
+  <path id="패스_45189" data-name="패스 45189" class="cls-2" d="M-1363.441,45.581l-10,10" transform="translate(1384.441 -34.581)"/>
+</svg>

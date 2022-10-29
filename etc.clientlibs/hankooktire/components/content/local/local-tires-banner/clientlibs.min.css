@@ -1,0 +1,18 @@
+.ltb .banner-wrap{display:flex}
+.ltb .banner{display:block;width:50%;position:relative;overflow:hidden}
+.ltb .banner img{transition:all .5s}
+.ltb .banner:hover img{transform:scale(1.1)}
+.ltb .text-wrap{position:absolute;top:50%;left:13.33%;transform:translateY(-50%);color:#fff}
+.ltb .text-wrap button{font-family:inherit}
+@media all and (max-width:1024px){.ltb .text-wrap{left:8.3333%}
+.ltb .text-wrap a.btn{margin-top:.6rem}
+}
+@media all and (max-width:767px){.ltb .text-wrap{left:5.1282%}
+.ltb .banner-wrap{flex-wrap:wrap}
+.ltb .banner{width:100%}
+}
+html[dir=rtl] .ltb .text-wrap{left:unset;right:13.33%}
+@media all and (max-width:1024px){html[dir=rtl] .ltb .text-wrap{right:8.3333%}
+}
+@media all and (max-width:767px){html[dir=rtl] .ltb .text-wrap{right:5.1282%}
+}

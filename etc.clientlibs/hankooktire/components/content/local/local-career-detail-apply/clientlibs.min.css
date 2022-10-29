@@ -1,0 +1,53 @@
+.lcda .sub-title{margin-top:2.4rem}
+.lcda .list-box{margin-top:9.6rem}
+.lcda .list-box .list{margin-top:4rem;display:flex;justify-content:center}
+.lcda .list-box .list .title{margin-top:2.8rem}
+.lcda .list-box .list .desc{margin-top:1.2rem}
+@media all and (max-width:1024px){.lcda .list-box .list .desc{margin-top:1rem}
+}
+.lcda .list-box .list li{flex:1;max-width:20rem;position:relative}
+.lcda .list-box .list li .icon-wrap{width:100%;padding-top:100%;position:relative;background-color:#00000005;border-radius:50%}
+.lcda .list-box .list li .icon-wrap img{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);max-width:7.2rem}
+.lcda .list-box .list li.arrow{flex:unset;padding:0 2.2rem;position:relative}
+.lcda .list-box .list li.arrow span{position:absolute;top:9rem;left:50%;transform:translateX(-50%);display:block;width:1.2rem;height:1.2rem;align-self:center;background:url("../../../../clientlibs/clientlib-local/resources/img/ico-arrow.png") no-repeat 50%/cover}
+.lcda .list-box .list.list-five li{max-width:15.2rem}
+.lcda .list-box .list.list-five li img{max-width:4.8rem}
+.lcda .list-box .list.list-five li.arrow span{top:6.6rem}
+.lcda .desc{margin-top:9.6rem}
+.lcda .catalog{margin-top:7.4rem;display:flex;flex-wrap:wrap}
+.lcda .catalog a{padding-right:4.4rem;margin-right:2.8rem;position:relative;font-weight:500}
+.lcda .catalog a:last-child{margin-right:0}
+.lcda .catalog a::before{display:block;content:"";position:absolute;right:0;top:0;background-color:#00000003;border-radius:50%;width:2.4rem;height:100%}
+.lcda .catalog a::after{display:block;content:"";position:absolute;right:0;top:0;background:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-base/resources/svg/c_icon_arrow.svg") no-repeat 50%/1.6rem 1.6rem;border-radius:50%;width:2.4rem;height:100%;background-color:rgba(0,0,0,.05)}
+@media all and (max-width:1024px){.lcda .sub-title{margin-top:2rem;width:68.18%}
+.lcda .list-box{margin-top:4.8rem}
+.lcda .list-box .list{flex-wrap:wrap;padding:0 calc((100% - 445px)/2);margin-top:2rem;justify-content:space-between}
+.lcda .list-box .list li{flex:unset}
+.lcda .list-box .list li:not(.arrow){width:20rem}
+.lcda .list-box .list li:nth-child(4n){display:none}
+.lcda .list-box .list li:nth-child(n+4){margin-top:4rem}
+.lcda .list-box .list li .title{margin-top:2.4rem}
+.lcda .list-box .list.list-five li{max-width:20rem}
+.lcda .list-box .list.list-five li img{max-width:7.2rem}
+.lcda .list-box .list.list-five li.arrow span{top:9rem}
+.lcda .desc{margin-top:4.8rem}
+.lcda .catalog{margin-top:3.6rem}
+}
+@media all and (max-width:767px){.lcda .sub-title{width:100%}
+.lcda .list-box .list{flex-direction:column;align-items:center}
+.lcda .list-box .list li{display:flex;flex-direction:column;justify-content:center;align-items:center;margin-top:1.6rem}
+.lcda .list-box .list li:first-child{margin-top:unset}
+.lcda .list-box .list li:nth-child(4n){display:flex}
+.lcda .list-box .list li:nth-child(n+4){margin-top:1.6rem}
+.lcda .list-box .list li.arrow{padding:unset;justify-content:center;align-items:center}
+.lcda .list-box .list li.arrow span{position:unset;transform:rotate(90deg)}
+.lcda .catalog{display:block}
+.lcda .catalog a{margin-top:2rem;display:inline-block}
+.lcda .catalog a:first-child{margin-top:0}
+}
+html[dir=rtl] .lcda .list-box .list li.arrow span{transform:translateX(-50%) rotate(180deg)}
+html[dir=rtl] .lcda .catalog a{padding-left:4.4rem;padding-right:unset;margin-left:2.8rem;margin-right:unset}
+html[dir=rtl] .lcda .catalog a::before{left:0;right:unset}
+html[dir=rtl] .lcda .catalog a::after{left:0;right:unset;transform:rotate(180deg)}
+@media all and (max-width:767px){html[dir=rtl] .lcda .list-box .list li.arrow span{transform:rotate(90deg)}
+}

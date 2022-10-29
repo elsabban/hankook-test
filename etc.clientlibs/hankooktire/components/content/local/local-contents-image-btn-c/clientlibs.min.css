@@ -1,0 +1,30 @@
+.lcibc .tab-content{margin-top:3.2rem}
+.lcibc .tab-content .img-box{width:100%;overflow:auto}
+.lcibc .tab-content .img-box .img-wrap{min-width:70.4rem;min-height:35.3rem;position:relative;transition:all .5s}
+.lcibc .tab-content .img-box .img-wrap .desc-box-wrap{justify-content:space-between;width:100%;position:absolute;bottom:10%;padding:0 8rem;left:0;display:flex}
+.lcibc .tab-content .img-box .img-wrap .desc-box-wrap h3{font-size:2rem;font-weight:600}
+.lcibc .tab-content .img-box .img-wrap .desc-box-wrap p{font-size:1.6rem;margin-top:1.2rem}
+.lcibc .tab-content .img-box .img-wrap .desc-box-wrap span.active{color:red}
+.lcibc .tab-content .img-box .img-wrap .hidden-tab-button{background-color:white;box-shadow:0 0 5px 2px #00000009;border-radius:50%;width:2.2%;height:4.4%;position:absolute;z-index:9;cursor:pointer}
+.lcibc .tab-content .img-box .img-wrap .hidden-tab-button::after{position:absolute;content:"";display:block;width:80%;height:80%;background-color:#c7c7c7;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%)}
+.lcibc .tab-content .img-box .img-wrap .hidden-tab-button.on::after{background-color:#fd6720}
+.lcibc .tab-content .text-wrap{margin-top:4.8rem}
+.lcibc .tab-content .text-wrap.title-box{display:none}
+.lcibc .tab-content .text-wrap.title-box.on{display:block}
+.lcibc .tab-content .text-wrap .title-wrap .font_body_2{margin-top:2.8rem}
+.lcibc .tab-content .text-wrap .title-wrap .font_body_2.desc{margin-top:2.4rem}
+.lcibc .tab-content .text-wrap .title-wrap .font_body_2.desc strong{display:block;margin:2.5rem 0 0}
+.lcibc .tab-content .text-wrap .fomula{margin-top:2.4rem}
+.lcibc .tab-content .text-wrap .fomula span.on{color:#fd6720}
+@media all and (max-width:1024px){.lcibc .tab-content{margin-top:2.4rem}
+.lcibc .tab-content .text-wrap{margin-top:3.2rem}
+.lcibc .tab-content .text-wrap .title-wrap .font_body_2{margin-top:1.6rem}
+.lcibc .tab-content .text-wrap .title-wrap .font_body_2.desc{margin-top:1.6rem}
+.lcibc .tab-content .text-wrap .title-wrap .font_body_2.desc strong{margin:1.6rem 0 0}
+.lcibc .tab-content .text-wrap.fomula{margin-top:1.6rem}
+.lcibc .tab-content .img-box .img-wrap .desc-box h3{font-size:max(2vw,16px)}
+.lcibc .tab-content .img-box .img-wrap .desc-box p{font-size:max(1.3vw,12px)}
+.lcibc .tab-content .img-box .img-wrap .hidden-tab-button{width:3%;height:6%}
+}
+@media all and (max-width:1024px){html[lang=ru] .lcibc .tab-content .img-box .img-wrap .desc-box-wrap{padding:0 6rem;bottom:8%}
+}

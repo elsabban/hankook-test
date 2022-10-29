@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#666}
+        </style>
+    </defs>
+    <g id="Icon_-_Suvs" data-name="Icon - Suvs">
+        <g id="Icon_-_SUVs-2" data-name="Icon - SUVs" transform="translate(1 9)">
+            <path id="패스_45181" data-name="패스 45181" class="cls-2" d="M946.5 541.3h2a1 1 0 0 0 1-1v-3.59a3 3 0 0 0-.5-1.664l-1.9-2.854a2 2 0 0 0-1.664-.891h-10.524a2 2 0 0 0-1.179.384l-3.8 2.772a11.954 11.954 0 0 1-3.107 1.632l-.989.346a2 2 0 0 0-1.339 1.884v1.982a1 1 0 0 0 1 1h3.002" transform="translate(-924.494 -531.298)"/>
+            <path id="패스_45182" data-name="패스 45182" class="cls-2" d="M942 541.3h-9.5" transform="translate(-924.494 -531.298)"/>
+            <circle id="타원_25" data-name="타원 25" class="cls-2" cx="2" cy="2" transform="translate(17.847 7.945)" r="2"/>
+            <circle id="타원_26" data-name="타원 26" class="cls-2" cx="2" cy="2" transform="translate(3.847 7.945)" r="2"/>
+        </g>
+    </g>
+</svg>

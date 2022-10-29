@@ -1,0 +1,39 @@
+.cpvc .anchor{text-decoration:underline;transition:color .3s}
+.cpvc .anchor:hover{color:#db5200}
+.cpvc .part-wrap{display:none}
+.cpvc .part-wrap.active{display:block}
+.cpvc .select-wrap{text-align:right;margin-bottom:4rem}
+.cpvc .part{margin-top:10.4rem}
+.cpvc .part:first-child{margin-top:6.4rem}
+.cpvc p{margin-top:2.4rem}
+.cpvc p.mt-40{margin-top:4rem}
+.cpvc p.no-margin{margin-top:unset}
+.cpvc .font_caption_main{display:block;margin-top:2rem}
+.cpvc .table-wrap{margin-top:2.8rem}
+.cpvc .table-wrap table{width:100%;border-top:1px solid #000}
+.cpvc .table-wrap table th{padding:1.2rem;border-left:1px solid #00000015;border-bottom:1px solid #00000015}
+.cpvc .table-wrap table td{padding:2rem;text-align:center;border-bottom:1px solid #00000015;border-left:1px solid #00000015}
+.cpvc .table-wrap table .no-border{border-left:unset}
+.cpvc .sub-list h3{margin-top:2.8rem}
+.cpvc .sub-list p{margin-top:1.6rem}
+@media all and (max-width:1024px){.cpvc .select-wrap{margin-bottom:6rem}
+.cpvc .part{margin-top:6rem}
+.cpvc .part:first-child{margin-top:3.6rem}
+.cpvc p{margin-top:1.6rem}
+.cpvc p.mt-40{margin-top:2.8rem}
+.cpvc .table-wrap{margin-top:2rem}
+.cpvc .font_caption_main{margin-top:1.6rem}
+.cpvc .sub-list h3{margin-top:2rem}
+.cpvc .sub-list p{margin-top:1.2rem}
+}
+@media all and (max-width:767px){.cpvc .select-wrap{margin-bottom:5.2rem}
+.cpvc .part{margin-top:5.2rem}
+.cpvc .part:first-child{margin-top:3.2rem}
+.cpvc .table-wrap{overflow:auto}
+.cpvc .table-wrap table{min-width:65rem}
+.cpvc .table-wrap table.sm{min-width:unset}
+}
+html[dir=rtl] .cpvc .select-wrap{text-align:left}
+html[dir=rtl] .cpvc .table-wrap table th{border-left:0;border-right:1px solid #00000015}
+html[dir=rtl] .cpvc .table-wrap table td{border-left:unset;border-right:1px solid #00000015}
+html[dir=rtl] .cpvc .table-wrap table .no-border{border-right:0}

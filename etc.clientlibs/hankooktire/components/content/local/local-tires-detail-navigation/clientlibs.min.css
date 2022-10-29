@@ -1,0 +1,116 @@
+@media all and (max-width:1024px){.header .util #util-find-tire.hide{display:none}
+}
+.ltdn{position:fixed;top:0;width:100%;height:8.8rem;border:solid 1px #e5e5e5;border-left:0;border-right:0;background-color:#fff;z-index:3002;-webkit-transform:translateY(-100%);transform:translateY(-100%);-webkit-transition:transform .3s;transition:transform .3s}
+.ltdn.type-b{position:relative;height:6.8rem;z-index:2999}
+@media all and (max-width:1024px){.ltdn.type-b{height:6.4rem}
+}
+.ltdn.type-b::after{pointer-events:none;display:block;content:"";position:absolute;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.5);transition:opacity .3s;opacity:0}
+.ltdn.type-b.fixed{z-index:3000}
+.ltdn.type-b.dimmed-fix::after{opacity:1}
+.ltdn.type-b .inner .menu-box{position:absolute;left:0;top:0;width:100%}
+.ltdn.type-b .inner .menu-box .web{margin:0 auto}
+.ltdn.type-b .inner .menu-box .web .menu-list button{flex-shrink:0;height:6.8rem;line-height:6.8rem}
+.ltdn.type-b .inner .menu-box .mobile{height:6.4rem}
+.ltdn.show{-webkit-transform:translateY(0);transform:translateY(0)}
+.ltdn button{font-family:"Hankook","HankookMain",sans-serif}
+#lnb-wrapper .ltdn .btn--bg{display:none}
+.ltdn .inner{justify-content:space-between;display:flex;max-width:inherit;height:100%;text-align:center}
+.ltdn .inner .logo-box{position:relative;min-width:220px;z-index:1}
+.ltdn .inner .logo-box a{display:block;height:100%}
+.ltdn .inner .logo-box a img{position:absolute;top:50%;transform:translateY(-50%);display:block;width:auto;max-width:unset;height:20px}
+.ltdn .inner .menu-box{flex:1}
+.ltdn .inner .menu-box .web{display:flex;justify-content:center}
+.ltdn .inner .menu-box .web .menu-list{display:flex}
+.ltdn .inner .menu-box .web .menu-list button{position:relative;display:inline-block;height:8.8rem;font-size:1.6rem;font-weight:500;color:rgba(0,0,0,.4);line-height:8.8rem;letter-spacing:-0.025em;vertical-align:top;padding:0 18px;-webkit-transition:all .2s ease-in;transition:all .2s ease-in}
+.ltdn .inner .menu-box .web .menu-list button:before{position:absolute;left:18px;bottom:0;display:block;content:"";width:0;height:1px;border-top:solid 1px #000;-webkit-transition:width .3s ease-in;transition:width .3s ease-in}
+@media all and (max-width:1366px){.ltdn .inner .menu-box .web .menu-list button:before{left:12px}
+}
+.ltdn .inner .menu-box .web .menu-list button:nth-of-type(1):hover:before,.ltdn .inner .menu-box .web .menu-list button:nth-of-type(1).active:before,.ltdn .inner .menu-box .web .menu-list button:nth-last-of-type(1):hover:before,.ltdn .inner .menu-box .web .menu-list button:nth-last-of-type(1).active:before{width:calc(100% - 18px)}
+@media all and (max-width:1366px){.ltdn .inner .menu-box .web .menu-list button:nth-of-type(1):hover:before,.ltdn .inner .menu-box .web .menu-list button:nth-of-type(1).active:before,.ltdn .inner .menu-box .web .menu-list button:nth-last-of-type(1):hover:before,.ltdn .inner .menu-box .web .menu-list button:nth-last-of-type(1).active:before{width:calc(100% - 12px)}
+}
+.ltdn .inner .menu-box .web .menu-list button:nth-of-type(1){padding-left:0}
+.ltdn .inner .menu-box .web .menu-list button:nth-of-type(1):before{left:0}
+.ltdn .inner .menu-box .web .menu-list button:nth-last-of-type(1){padding-right:0}
+.ltdn .inner .menu-box .web .menu-list button:hover,.ltdn .inner .menu-box .web .menu-list button.active{color:#000}
+.ltdn .inner .menu-box .web .menu-list button:hover:before,.ltdn .inner .menu-box .web .menu-list button.active:before{width:calc(100% - 36px)}
+@media all and (max-width:1366px){.ltdn .inner .menu-box .web .menu-list button:hover:before,.ltdn .inner .menu-box .web .menu-list button.active:before{width:calc(100% - 24px)}
+}
+.ltdn .inner .menu-box .web .menu-list button:hover:first-child:last-child::before,.ltdn .inner .menu-box .web .menu-list button.active:first-child:last-child::before{width:100%}
+@media all and (max-width:1280px){.ltdn .inner .menu-box .web{display:none}
+}
+.ltdn .inner .menu-box .mobile{position:relative;display:none;height:8.8rem}
+.ltdn .inner .menu-box .mobile .select-wrap{position:absolute;top:50%;transform:translateY(-50%)}
+@media all and (max-width:1280px){.ltdn .inner .menu-box .mobile{display:flex;justify-content:center}
+.ltdn .inner .menu-box .mobile .btn{background-color:transparent;border-radius:unset;color:#000}
+.ltdn .inner .menu-box .mobile .select-box .drop-box{right:unset;left:50%;transform:translate(-50%)}
+.ltdn .inner .menu-box .mobile .select-box .drop-box button{white-space:nowrap}
+}
+@media all and (max-width:1280px)and (max-width:1024px){.ltdn .inner .menu-box .mobile .select-box .drop-box{left:0;transform:unset}
+}
+.ltdn .inner .buy-box{display:flex;justify-content:flex-end;align-items:center;gap:1rem;position:relative;text-align:right}
+.ltdn .inner .buy-box .btn{text-align:left}
+.ltdn .inner .buy-box .btn-recent{position:relative;width:4rem;height:4rem;background:url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/icon_recent.svg) no-repeat center center}
+.ltdn .inner .buy-box .btn-recent .num{position:absolute;text-align:center;line-height:1.8;top:0;right:0;width:1.8rem;height:1.8rem;border-radius:50%;color:#fff;background-color:#ea5504;font-size:1rem;font-weight:500}
+.ltdn .inner .recent-product{position:absolute;background-color:#fff;right:min(8rem,4.17vw);top:calc(100% + 10px);width:80rem;border-radius:16px;padding:3rem 0;box-shadow:0 6px 24px 0 rgba(0,0,0,.15);text-align:left;visibility:collapse;opacity:0;z-index:1}
+.ltdn .inner .recent-product__inner{padding:0 2rem;overflow:hidden}
+.ltdn .inner .recent-product__swiper{overflow:hidden}
+.ltdn .inner .recent-product .swiper-pagination{bottom:2.5rem}
+.ltdn .inner .recent-product .btn-close{position:absolute;top:1.6rem;right:1.6rem;width:3.2rem;height:3.2rem;background:#fff url(https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/c_close.svg) no-repeat center center}
+.ltdn .inner .recent-product .txt{display:block;margin-left:2rem;margin-bottom:2.5rem;font-size:2.4rem;font-weight:600;letter-spacing:-0.01em}
+.ltdn .inner .recent-product .txt .num{color:#999;margin:0 .8rem}
+@media all and (max-width:1024px){.ltdn .inner .recent-product{top:100%;width:100%;left:0;right:0;border-top-left-radius:0;border-top-right-radius:0;box-shadow:none;border-top:1px solid rgba(0,0,0,.1)}
+.ltdn .inner .recent-product__swiper{overflow:visible}
+.ltdn .inner .recent-product .btn-close{top:auto;bottom:-5.8rem;right:50%;transform:translate(50%,0);border-radius:50%;width:4.6rem;height:4.6rem}
+}
+.ltdn .dimmed{pointer-events:none}
+@media all and (max-width:1024px){.ltdn .dimmed{position:absolute;width:100vw;height:100vh;background-color:rgba(0,0,0,.4);opacity:0}
+}
+@media all and (max-width:1366px){.ltdn .inner .menu-box .web .menu-list button{font-size:1.4rem;padding:0 12px}
+}
+@media all and (max-width:1024px){.ltdn{height:6.4rem;border-bottom:0}
+.ltdn.type-b .inner .menu-box{position:unset;left:unset;top:unset}
+.ltdn.type-b .inner .menu-box .mobile .select-wrap .select-box .drop-box{top:7rem}
+.ltdn .inner .logo-box{display:none}
+.ltdn .inner .menu-box{flex:1;width:inherit}
+.ltdn .inner .menu-box .web{display:none}
+.ltdn .inner .menu-box .web .menu-list button{height:6.4rem;line-height:6.4rem}
+.ltdn .inner .menu-box .mobile{display:block;height:6.4rem}
+.ltdn .inner .menu-box .mobile .select-wrap .select-box .btn{font-size:14px;color:#000;padding:0 22px 0 0;background-color:transparent}
+.ltdn .inner .menu-box .mobile .select-wrap .select-box .btn:before{right:0}
+.ltdn .inner .menu-box .mobile .select-wrap .select-box .drop-box{top:6.7rem;width:calc(100vw - min(8rem,4.17vw)*2)}
+}
+@media all and (max-width:1024px)and (max-width:767px){.ltdn .inner .menu-box .mobile .select-wrap .select-box .drop-box{width:calc(100vw - 2rem*2)}
+}
+@media all and (max-width:1024px){.ltdn .inner .buy-box .btn{padding:0 16px 0 22px}
+}
+.ltdn .select-box.ready .drop-box{opacity:1}
+.ltdn .select-box .drop-box{opacity:0}
+.nav-anchor{position:absolute;display:block;height:50px}
+[lang=ko] .ltdn .inner .btn--arrow{width:auto;min-width:24.2rem}
+[lang=ko] .ltdn .inner .btn--arrow .ico-t{position:relative;vertical-align:middle;margin-right:.4rem;top:-1px;width:8.8rem}
+@media all and (max-width:1366px){[lang=ko] .ltdn .inner .btn--arrow{min-width:16rem}
+[lang=ko] .ltdn .inner .btn--arrow .txt{display:none}
+}
+@media all and (max-width:767px){[lang=ko] .ltdn .inner .btn--arrow{min-width:15rem}
+}
+html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button::before{left:unset;right:1.8rem}
+@media all and (max-width:1366px){html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button::before{right:1.2rem}
+}
+html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button:nth-of-type(1){padding-left:1.8rem;padding-right:unset}
+html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button:nth-of-type(1)::before{left:unset;right:0}
+@media all and (max-width:1366px){html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button:nth-of-type(1){padding-left:1.2rem}
+}
+html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button:last-of-type{padding-left:unset;padding-right:1.8rem}
+html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button:last-of-type::before{left:unset;right:1.8rem}
+@media all and (max-width:1366px){html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button:last-of-type::before{right:1.2rem}
+}
+@media all and (max-width:1366px){html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button:last-of-type{padding-right:1.2rem}
+}
+html[dir=rtl] .ltdn .inner .menu-box .web .menu-list button:last-of-type:first-child{padding-right:unset}
+html[dir=rtl] .ltdn .inner .recent-product{right:unset;left:min(min(8rem,4.17vw));text-align:right}
+html[dir=rtl] .ltdn .inner .recent-product .btn-close{right:unset;left:1.6rem}
+html[dir=rtl] .ltdn .inner .recent-product .txt{margin-left:unset;margin-right:2rem}
+@media all and (max-width:1024px){html[dir=rtl] .ltdn .inner .recent-product{left:0}
+html[dir=rtl] .ltdn .inner .recent-product .btn-close{right:50%}
+html[dir=rtl] .ltdn .inner .menu-box .mobile .select-box .drop-box{left:unset;right:0}
+}

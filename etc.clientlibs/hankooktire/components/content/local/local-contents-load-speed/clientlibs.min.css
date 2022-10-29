@@ -1,0 +1,66 @@
+.lcls .font_contents_title_2_main{font-weight:600}
+.lcls [data-weight-unit]::after{content:attr(data-weight-unit);display:block;position:absolute;right:2.8rem;top:50%;transform:translateY(-50%);font-size:1.6rem;font-weight:600}
+.lcls [data-speed-unit]::after{content:attr(data-speed-unit);display:block;position:absolute;right:2.8rem;top:50%;transform:translateY(-50%);font-size:1.6rem;font-weight:600}
+.lcls-accordion{display:flex;flex-wrap:wrap;margin-top:3.2rem}
+.lcls-accordion>li{width:100%;border-top:1px solid rgba(0,0,0,.15);padding:2.8rem 0rem}
+.lcls-accordion>li ul li:first-child p.font_body_2{font-weight:500}
+.lcls-accordion>li:last-child{border-bottom:1px solid rgba(0,0,0,.15)}
+.lcls-accordion>li .top{padding:2.8rem 0;margin:-2.8rem 0;cursor:pointer;position:relative}
+.lcls-accordion>li .top::after{content:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/plus-icon.svg");position:absolute;right:0;top:50%;transform:translateY(-50%);width:3.2rem;height:3.2rem}
+.lcls-accordion>li .top.active::after{content:url("https://www.hankooktire.com/etc.clientlibs/hankooktire/clientlibs/clientlib-local/resources/svg/minus-icon.svg")}
+.lcls-accordion-container{padding:6.4rem;padding-left:unset;display:none}
+.lcls-accordion-container .img-wrap{margin-top:3.2rem}
+.lcls-accordion-container .input-wrap{max-width:63.5rem;margin-top:1.8rem;display:flex;justify-content:space-between;flex-wrap:wrap}
+.lcls-accordion-container .input-wrap .select-box{width:100%}
+.lcls-accordion-container .input-wrap .input-box{align-items:center;display:flex;width:100%;justify-content:space-between;margin-top:1.6rem;position:relative}
+.lcls-accordion-container .input-wrap .input-box input{width:48%;min-height:5.2rem;line-height:2.5rem;padding:1rem 5rem 1rem 2.8rem;background-color:#f0f0f0;border-radius:2.6rem}
+.lcls-accordion-container .input-wrap .input-box.speed-symbol-index::after{display:block;content:"Mph";position:absolute;right:2.8rem;top:50%;transform:translateY(-50%);font-size:1.6rem;font-weight:600}
+.lcls-accordion-container ul li{margin-top:8rem}
+.lcls-accordion-container ul li:first-child{margin-top:0rem}
+.lcls-accordion-container ul li p{margin-top:1.6rem}
+.lcls-accordion-container ul li h2{position:relative}
+.lcls-accordion-container ul li h2 span{float:right}
+.lcls-accordion-container ul li .table-wrap{margin-top:2.5rem;width:100%;overflow-x:auto}
+@media all and (max-width:1024px){.lcls-accordion-container ul li .table-wrap{margin-top:1.6rem}
+}
+.lcls-accordion-container ul li .table-wrap table{width:100%;min-width:53.6rem;text-align:center;border-top:1px solid;margin-top:5rem}
+.lcls-accordion-container ul li .table-wrap table:first-child{margin-top:0}
+.lcls-accordion-container ul li .table-wrap table td{padding:1.2rem 0;color:#444;border-bottom:1px solid #0003}
+.lcls-accordion-container ul li .table-wrap table td.td-title{font-weight:500;background-color:#00000006;padding:1.2rem 1rem}
+.lcls-accordion-container ul li .table-wrap.speed-index-convert table{width:100%;min-width:53.6rem;text-align:center;border-top:1px solid;margin-top:5rem}
+.lcls-accordion-container ul li .table-wrap.speed-index-convert table:first-child{margin-top:0}
+.lcls-accordion-container ul li .table-wrap.speed-index-convert table .table-head{background-color:#00000003}
+.lcls-accordion-container ul li .table-wrap.speed-index-convert table tr.subtitle th{border-right:1px solid #0003}
+.lcls-accordion-container ul li .table-wrap.speed-index-convert table tr.subtitle th:last-child{border-right:0}
+.lcls-accordion-container ul li .table-wrap.speed-index-convert table th{font-weight:normal;border-bottom:1px solid #0003;background-color:#00000003;padding:.5rem}
+.lcls-accordion-container ul li .table-wrap.speed-index-convert table td{color:#444;border-bottom:1px solid #0003;border-right:1px solid #0003}
+.lcls-accordion-container ul li .table-wrap.speed-index-convert table td:last-child{border-right:0}
+.lcls-accordion-container ul li .table-wrap.speed-index-convert table td.td-title{font-weight:500;background-color:#00000003}
+@media all and (max-width:1024px){.lcls p.font_body_2{font-size:1.6rem}
+.lcls .font_contents_title_2_main{font-size:1.8rem}
+.lcls-accordion li .top{font-size:1.6rem}
+.lcls-accordion-container{padding:4rem;padding-left:unset}
+.lcls-accordion-container .input-wrap{max-width:unset}
+}
+@media all and (max-width:767px){.lcls-accordion-container{padding:4rem 0}
+.lcls-accordion-container ul li{margin-top:7.2rem}
+.lcls-accordion-container ul li p{margin-top:1.2rem}
+.lcls-accordion-container ul li .table-wrap{margin-top:1.6rem}
+.lcls-accordion-container ul li .table-wrap table{margin-top:3.2rem}
+.lcls-accordion-container ul li .table-wrap table:first-child{margin-top:0}
+.lcls-accordion-container .img-wrap{margin-top:2.4rem}
+.lcls-accordion-container .input-wrap .input-box input{width:46%}
+}
+html[dir=rtl] .lcls-accordion-container .input-wrap .input-box input{padding:1rem 2.8rem 1rem 5rem}
+html[dir=rtl] .lcls-accordion-container .input-wrap .input-box.LBS::after{left:2.8rem;right:unset}
+html[dir=rtl] .lcls-accordion-container .input-wrap .input-box.KG::after{left:2.8rem;right:unset}
+html[dir=rtl] .lcls-accordion-container .input-wrap .input-box.kmh::after{left:2.8rem;right:unset}
+html[dir=rtl] .lcls-accordion-container .input-wrap .input-box.mph::after{left:2.8rem;right:unset}
+html[dir=rtl] .lcls-accordion-container .input-wrap .input-box.speed-symbol-index::after{left:2.8rem;right:unset}
+html[dir=rtl] .lcls-accordion>li .top::after{left:0;right:unset}
+html[dir=rtl] .lcls-accordion-container ul li h2 span{float:left}
+html[dir=rtl] .lcls [data-speed-unit]::after{right:unset;left:2.8rem}
+html[dir=rtl] .lcls-accordion-container ul li .table-wrap.speed-index-convert table td{border-right:unset;border-left:1px solid #0003}
+html[dir=rtl] .lcls-accordion-container ul li .table-wrap.speed-index-convert table td:last-child{border-left:unset}
+html[dir=rtl] .lcls-accordion-container ul li .table-wrap.speed-index-convert table tr.subtitle th{border-right:unset;border-left:1px solid #0003}
+html[dir=rtl] .lcls-accordion-container ul li .table-wrap.speed-index-convert table tr.subtitle th:last-child{border-right:1px solid #0003;border-left:unset}

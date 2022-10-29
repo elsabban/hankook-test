@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#070203;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.7px}
+        </style>
+    </defs>
+    <g id="그룹_8627" data-name="그룹 8627" transform="translate(-.348)" style="opacity:.997">
+        <g id="그룹_8626" data-name="그룹 8626" transform="translate(10.348 10)">
+            <path id="선_84" data-name="선 84" class="cls-2" transform="translate(10)" d="M0 0v2.975"/>
+            <path id="선_85" data-name="선 85" class="cls-2" transform="translate(10 17.025)" d="M0 0v2.975"/>
+            <path id="선_86" data-name="선 86" class="cls-2" transform="translate(0 10)" d="M0 0h2.975"/>
+            <path id="선_87" data-name="선 87" class="cls-2" transform="translate(17.025 10)" d="M0 0h2.975"/>
+            <circle id="타원_110" data-name="타원 110" class="cls-2" cx="6.727" cy="6.727" r="6.727" transform="translate(3.273 3.273)"/>
+            <path id="패스_45849" data-name="패스 45849" d="M6.8 10.494a3.694 3.694 0 1 1 3.694 3.694A3.694 3.694 0 0 1 6.8 10.494" transform="translate(-.494 -.494)" style="fill:#070203"/>
+        </g>
+        <path id="사각형_12721" data-name="사각형 12721" transform="translate(.348)" style="fill:none" d="M0 0h40v40H0z"/>
+    </g>
+</svg>

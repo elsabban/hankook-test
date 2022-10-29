@@ -1,0 +1,28 @@
+.lwg .txt-wrap{color:#000}
+.lwg .txt-wrap dt{font-size:5.6rem;font-weight:bold;line-height:7rem;letter-spacing:-0.056rem}
+.lwg .txt-wrap dd{margin-top:3.2rem;font-size:1.8rem;font-weight:300;line-height:3rem;letter-spacing:-0.054rem}
+.lwg .txt-wrap dd p:first-child{margin-bottom:3.2rem;font-size:2.8rem;font-weight:bold;line-height:4rem;letter-spacing:-0.056rem}
+.lwg .icon-wrap{margin-top:6.4rem;text-align:center}
+.lwg .icon-wrap ul{display:flex;justify-content:space-between;gap:3.4rem}
+.lwg .icon-wrap li{width:calc(25% - 2.55rem)}
+@media all and (max-width:1024px){.lwg .icon-wrap li{width:calc(50% - 1.8rem)}
+}
+@media all and (max-width:767px){.lwg .icon-wrap li{width:calc(50% - 1.1rem)}
+}
+.lwg .icon-wrap .icon{width:20rem;height:20rem;border-radius:50%;background:rgba(0,0,0,.03);display:flex;justify-content:center;align-items:center;margin:0 auto}
+.lwg .icon-wrap .icon-tit{margin-top:2.8rem;font-size:2.4rem;line-height:3rem;letter-spacing:-0.024rem;font-weight:bold}
+.lwg .icon-wrap .icon-desc{margin-top:1.6rem;font-size:1.6rem;line-height:2.6rem;letter-spacing:-0.056rem;font-weight:300}
+@media all and (max-width:1024px){.lwg .txt-wrap dt{font-size:2.4rem;line-height:3.2rem;letter-spacing:-0.024rem}
+.lwg .txt-wrap dd{margin-top:1.6rem;font-size:1.4rem;line-height:2.4rem;letter-spacing:-0.049rem}
+.lwg .txt-wrap dd p:first-child{margin-bottom:1.6rem;font-size:1.8rem;line-height:2.6rem;letter-spacing:-0.054rem}
+.lwg .icon-wrap{margin-top:5.3rem}
+.lwg .icon-wrap ul{display:inline-flex;justify-content:center;flex-wrap:wrap;row-gap:3.6rem;max-width:50rem}
+.lwg .icon-wrap .icon-tit{margin-top:2.4rem;font-size:1.8rem;line-height:2.6rem;letter-spacing:-0.054rem}
+.lwg .icon-wrap .icon-desc{margin-top:1rem;font-size:1.3rem;line-height:2.2rem;letter-spacing:-0.046rem}
+}
+@media all and (max-width:767px){.lwg .icon-wrap{margin-top:4.8rem}
+.lwg .icon-wrap ul{row-gap:3.2rem;gap:2.2rem}
+.lwg .icon-wrap .icon{width:16.7rem;height:16.7rem}
+}
+@media all and (max-width:767px)and (max-width:400px){.lwg .icon-wrap .icon{width:15rem;height:15rem}
+}
